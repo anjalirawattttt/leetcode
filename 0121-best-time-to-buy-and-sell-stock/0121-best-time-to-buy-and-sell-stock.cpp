@@ -7,7 +7,7 @@ public:
             if(prices[i]<buy){
                 buy=prices[i];
             }
-            else if(prices[i]-buy>maxprofit){
+            else {
                 maxprofit=max(maxprofit,prices[i]-buy);
             }
           
