@@ -14,9 +14,7 @@ public:
             if(nums[i]+nums[j]+nums[k]==0){
                v.push_back({nums[i],nums[j],nums[k]});
                j++;
-               k--;
                while(j<k && nums[j]==nums[j-1])j++;
-               while(j<k && nums[k]==nums[k+1])k--;
                 
             }
             else if(sum<0){
