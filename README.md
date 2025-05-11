@@ -19,6 +19,7 @@
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/anjalirawattttt/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/anjalirawattttt/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -28,6 +29,7 @@
 | [0001-two-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
