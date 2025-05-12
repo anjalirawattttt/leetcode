@@ -13,6 +13,7 @@
 | [0056-merge-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -30,6 +31,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -106,4 +108,8 @@
 |  |
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
