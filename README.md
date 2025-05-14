@@ -24,6 +24,7 @@
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/anjalirawattttt/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/anjalirawattttt/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -54,6 +55,7 @@
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Math
 |  |
 | ------- |
@@ -66,11 +68,13 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
 | ------- |
