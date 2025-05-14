@@ -30,6 +30,7 @@
 | [0485-max-consecutive-ones](https://github.com/anjalirawattttt/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
+| [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 ## Hash Table
@@ -59,6 +60,7 @@
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 ## Math
 |  |
 | ------- |
@@ -72,6 +74,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -88,6 +91,7 @@
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
+| [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 ## Divide and Conquer
 |  |
@@ -147,6 +151,7 @@
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
+| [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 ## Counting Sort
 |  |
 | ------- |
