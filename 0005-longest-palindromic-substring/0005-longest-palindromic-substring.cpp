@@ -8,6 +8,7 @@ public:
         int length;
 
         for(int i=0;i<n;i++){
+            //even expansion
             int j=i;
             int k=i;
             while(j>=0 && k<n && s[j]==s[k] ){
@@ -22,6 +23,7 @@ public:
                 start=j;
                 end=k;
             }
+            //odd expansion
             j=i;
             k=i+1;
             while(j>=0 && k<n && s[j]==s[k]){
