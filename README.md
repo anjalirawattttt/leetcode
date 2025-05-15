@@ -40,6 +40,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/anjalirawattttt/leetcode/tree/master/0217-contains-duplicate) |
@@ -69,6 +70,7 @@
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -153,6 +155,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
