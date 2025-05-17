@@ -20,16 +20,6 @@ public:
         }
         return slow;
     }
-    int size(ListNode* head){
-        if(!head)return 0;
-        int count=0;
-        ListNode* temp=head;
-        while(temp){
-            temp=temp->next;
-            count++;
-        }
-        return count;
-    }
 
     ListNode* reverse(ListNode* head){
         ListNode* prev=NULL,*curr =head,*next=NULL;
@@ -46,26 +36,15 @@ public:
         if(!head || !head->next)return true;
         //find middle
         ListNode* middle=middleNode(head);
-        //separate LL
-        ListNode* head1=head;
-        ListNode* head2=middle;
-        ListNode* temp=head,*prev;
-        while(temp){
-            if(temp==middle){
-                prev->next=NULL;
-            }
-            prev=temp;
-            temp=temp->next;
-        }
         //reverse second LL
-        head2=reverse(head2);
-        //compare        
-        int count=size(head);
-            while(head1 && head2){
-                if(head1->val!=head2->val)return false;
-                head1=head1->next;
-                head2=head2->next;
-            }
+        middle=reverse(middle);
+        //compare
+        ListNode* head1=head;
+        while(head1 && middle){
+            if(head1->val!=middle->val)return false;
+            head1=head1->next;
+            middle=middle->next;
+        }
         
         return true;
     }
