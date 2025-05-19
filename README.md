@@ -90,6 +90,7 @@
 | [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search
@@ -144,6 +145,7 @@
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -224,6 +226,7 @@
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0328-odd-even-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
 |  |
