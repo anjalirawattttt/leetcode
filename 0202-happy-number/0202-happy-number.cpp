@@ -1,20 +1,24 @@
 class Solution {
 public:
-    bool isHappy(int n) {
+    int next(int n){
         int num=n;
         int sum=0;
-        int i=100;
-        while(i--){
-            while(num>0){
+        while(num>0){
                 int digit=num%10;
                 sum+=digit*digit;
                 num/=10;
-            }
-            if(sum==1 || sum==7)return true;
-            if(sum==2||sum==3||sum==4||sum==5||sum==6||sum==8||sum==9)return false;
-            num=sum;
-            sum=0;
-        }        
+        }
+        return sum;
+    }
+    bool isHappy(int n) {
+        int slow=n,fast=next(n);
+        while(slow!=fast && (fast!=1 || fast!=7)){
+            slow=next(slow);
+            fast=next(next(fast));
+        }
+        if(fast==1 || fast==7)return true;
         return false;
+        
+        
     }
 };
