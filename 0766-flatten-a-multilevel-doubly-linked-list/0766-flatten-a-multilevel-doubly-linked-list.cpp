@@ -19,9 +19,7 @@ public:
             Node* next=curr->next;
             if(curr->child){
                 Node* child=curr->child;
-                Node* childTail;
-
-                childTail=flattenDFS(child);
+                Node* childTail=flattenDFS(child);
 
                 curr->next=child;
                 child->prev=curr;
