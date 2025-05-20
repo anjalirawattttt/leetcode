@@ -1,30 +1,27 @@
 class LRUCache {
 public:
     typedef struct Node{
-        int key;
-        int value;
-        Node* prev;
-        Node* next;
+        int key,value;
+        Node* prev,*next;
         Node(int k,int v){
             key=k;
             value=v;
             prev=NULL;
             next=NULL;
         }
+
     }Node;
 
     int capacity;
     unordered_map<int,Node*> m;
-    //dummy
     Node* head;
     Node* tail;
 
-    LRUCache(int capacity) {
-        this->capacity=capacity;
-        head=new Node(0,0);
-        tail=new Node(0,0);
-        head->next=tail;
-        tail->prev=head;
+    void insert(Node* node){
+        node->next=head->next;
+        node->prev=head;
+        head->next->prev=node;
+        head->next=node;
     }
 
     void remove(Node* node){
@@ -32,11 +29,12 @@ public:
         node->next->prev=node->prev;
     }
 
-    void insert(Node* node){
-        node->prev=head;
-        node->next=head->next;
-        head->next->prev=node;
-        head->next=node;
+    LRUCache(int capacity) {
+        this->capacity=capacity;
+        head=new Node(0,0);
+        tail=new Node(0,0);
+        head->next=tail;
+        tail->prev=head;
     }
     
     int get(int key) {
@@ -52,6 +50,7 @@ public:
             remove(m[key]);
             delete(m[key]);
         }
+
         Node* node=new Node(key,value);
         insert(node);
         m[key]=node;
