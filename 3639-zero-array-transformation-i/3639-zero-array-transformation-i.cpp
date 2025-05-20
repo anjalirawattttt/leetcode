@@ -5,7 +5,7 @@ public:
 
         for(auto &q:queries){
             diff[q[0]]++;
-            if(q[1]+1<n)diff[q[1]+1]--;
+            diff[q[1]+1]--;
         }
 
         int apply=0;
