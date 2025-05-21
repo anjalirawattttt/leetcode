@@ -162,6 +162,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
@@ -263,6 +264,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0112-path-sum) |
@@ -279,6 +281,7 @@
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -293,6 +296,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
