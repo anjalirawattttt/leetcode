@@ -13,25 +13,12 @@ class Solution {
 public:
     void helper(TreeNode* root){
         if(!root)return ;
-        if(root->left && root->right){
-            TreeNode* left=root->left;
-            TreeNode* right=root->right;
-            root->left=right;
-            root->right=left;
-        }
-        else if(root->left){
-            TreeNode* node = root->left;
-            root->left = NULL;
-            root->right = node; 
-        }
-        else if(root->right){
-            TreeNode* node = root->right;
-            root->right = NULL;
-            root->left = node; 
-        }
+        TreeNode* left=root->left;
+        TreeNode* right=root->right;
+        root->left=right;
+        root->right=left;
         helper(root->left);
         helper(root->right);
-
     }
 
     TreeNode* invertTree(TreeNode* root) {
