@@ -11,18 +11,19 @@
  */
 class Solution {
 public:
-    bool rec(TreeNode* node, int targetSum,int sum){
-        if(!node){
-            return false;
-        }
-        sum+=node->val;
-        if(!node->left && !node->right){
+    bool pathSum(TreeNode* root, int targetSum,int sum){
+        if(!root)return false;
+        sum+=root->val;
+        if(!root->left && !root->right){
             if(sum==targetSum)return true;
         }
-        return rec(node->left,targetSum,sum) || rec(node->right,targetSum,sum);
+        return pathSum(root->left,targetSum,sum) || pathSum(root->right,targetSum,sum);
+        
+        
+
     }
 
     bool hasPathSum(TreeNode* root, int targetSum) {
-        return rec(root,targetSum,0);
+        return pathSum(root,targetSum,0);
     }
 };
