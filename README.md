@@ -166,6 +166,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Stack
@@ -177,6 +178,7 @@
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -216,6 +218,7 @@
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
@@ -230,6 +233,7 @@
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Counting Sort
