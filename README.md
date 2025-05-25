@@ -13,6 +13,7 @@
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
@@ -163,6 +164,7 @@
 | [0005-longest-palindromic-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
@@ -229,6 +231,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/anjalirawattttt/leetcode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
