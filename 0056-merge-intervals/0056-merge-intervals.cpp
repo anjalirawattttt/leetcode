@@ -4,7 +4,7 @@ public:
         vector<vector<int>> v;
         int n=intervals.size();
         if(n<=1)return intervals;
-        sort(intervals.begin(),intervals.end(),[](vector<int> a,vector<int> b){
+        sort(intervals.begin(),intervals.end(),[](const vector<int>& a,const vector<int>& b){
             if(a[0]==b[0])return a[1]<b[1];
             else return a[0]<b[0];
         });
@@ -14,7 +14,6 @@ public:
 
         for(int i=1;i<n;i++){
             if(intervals[i][0]<=end){
-                start=min(start,intervals[i][0]);
                 end=max(end,intervals[i][1]);
             }
             else{
