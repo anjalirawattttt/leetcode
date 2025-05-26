@@ -17,11 +17,11 @@ public:
         if(l && r){
             return root;
         }
-        if(!l || !r){
-            return l?l:r;
-        }
         
-        return NULL;
+        return l?l:r;
+        
+        
+        
         
 
     }
