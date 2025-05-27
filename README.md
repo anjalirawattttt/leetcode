@@ -47,6 +47,7 @@
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
+| [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anjalirawattttt/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -76,6 +77,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Prefix Sum
@@ -398,4 +400,8 @@
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0113-path-sum-ii) |
+## Graph
+|  |
+| ------- |
+| [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 <!---LeetCode Topics End-->
