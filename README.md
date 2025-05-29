@@ -135,6 +135,7 @@
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
+| [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -197,6 +198,7 @@
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Stack
@@ -332,6 +334,7 @@
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
+| [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -439,4 +442,8 @@
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
