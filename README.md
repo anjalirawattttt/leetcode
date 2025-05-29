@@ -11,6 +11,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/anjalirawattttt/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
@@ -443,6 +444,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/anjalirawattttt/leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0113-path-sum-ii) |
