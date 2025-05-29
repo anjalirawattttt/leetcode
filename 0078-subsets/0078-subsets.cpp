@@ -5,10 +5,11 @@ public:
             ans.push_back(subset);
             return;
         }
-        helper(ans,nums,i+1,subset);
+        
         subset.push_back(nums[i]);
         helper(ans,nums,i+1,subset);
         subset.pop_back();
+        helper(ans,nums,i+1,subset);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
