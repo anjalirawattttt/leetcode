@@ -227,6 +227,7 @@
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -278,6 +279,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0541-reverse-string-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0541-reverse-string-ii) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
