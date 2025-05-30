@@ -6,9 +6,6 @@ public:
             return;                
         }
         if(pos>n){
-            // if(k==0){
-            //     ans.push_back(subset);                
-            // } 
             return;   
         }
         if(n-pos+1 < k){
