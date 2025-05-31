@@ -1,16 +1,16 @@
 class Solution {
 public:
-    void helper(vector<string> &ans,string digits,int i,vector<string> &map,string temp){
+    void helper(vector<string> &ans,string &digits,int i,unordered_map<char,string> &map,string temp){
         
         if(i==digits.length()){
             ans.push_back(temp);
             return;
         }
 
-        int digit=digits[i] - '0';
+        
 
-        for(int j=0;j<map[digit].size();j++){
-            temp+=map[digit][j];
+        for(int j=0;j<map[digits[i]].size();j++){
+            temp+=map[digits[i]][j];
             helper(ans,digits,i+1,map,temp);
             temp.pop_back();   
         }
@@ -20,7 +20,7 @@ public:
     vector<string> letterCombinations(string digits) {
         if(digits.empty())return {};
         vector<string> ans;
-        vector<string> map={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        unordered_map<char,string> map={{'2',"abc"},{'3',"def"},{'4',"ghi"},{'5',"jkl"},{'6',"mno"},{'7',"pqrs"},{'8',"tuv"},{'9',"wxyz"}};
         helper(ans,digits,0,map,"");
         return ans;    
     }
