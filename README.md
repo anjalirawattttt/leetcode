@@ -31,6 +31,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/anjalirawattttt/leetcode/tree/master/0169-majority-element) |
@@ -150,6 +151,7 @@
 | [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/anjalirawattttt/leetcode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/anjalirawattttt/leetcode/tree/master/0069-sqrtx) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
@@ -236,6 +238,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
