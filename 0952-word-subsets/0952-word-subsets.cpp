@@ -23,7 +23,7 @@ public:
             }
 
             for(int i=0;i<26;i++){
-                if(maxFreq[i]>freq[i]){
+                if(freq[i]<maxFreq[i]){
                     flag=false;
                     break;
                 }
