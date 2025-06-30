@@ -1,26 +1,25 @@
 class Solution {
 public:
-    void helper(int n,int k,vector<vector<int>>& ans,vector<int> subset,int pos){
-        if(k==0){
-            ans.push_back(subset);
-            return;                
-        }
-        if(pos>n){
-            return;   
-        }
-        if(n-pos+1 < k){
+    void helper(int n,int k,vector<vector<int>>& res,vector<int>& temp,int i){
+        if(temp.size()==k){
+            res.push_back(temp);
             return;
         }
-        helper(n,k,ans,subset,pos+1);
-        subset.push_back(pos);
-        helper(n,k-1,ans,subset,pos+1);
-        subset.pop_back();
+        if(i>n){
+            return;
+        }
+        temp.push_back(i);
+        helper(n,k,res,temp,i+1);
+        temp.pop_back();
+        helper(n,k,res,temp,i+1);
 
     }
+    
 
     vector<vector<int>> combine(int n, int k) {
-        vector<vector<int>> ans;
-        helper(n,k,ans,{},1);
-        return ans;   
+        vector<vector<int>> res;
+        vector<int> temp;
+        helper(n,k,res,temp,1);
+        return res;  
     }
 };
