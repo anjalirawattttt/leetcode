@@ -1,25 +1,23 @@
 class Solution {
 public:
-
-    void helper(int k,int n,vector<vector<int>>& ans,vector<int>& subset,int pos){
-        if(n==0 && k==0){
-            ans.push_back(subset); 
-            return;   
+    void helper(int k,int n,vector<vector<int>>& res,vector<int>& temp,int i,int sum){
+        if(sum==n && temp.size()==k){
+            res.push_back(temp);
+            return;
         }
-        if(pos>9)return;
-        if( k<0 || n<0 )return;
-        if(9-pos+1<k)return;
-        subset.push_back(pos);
-        helper(k-1,n-pos,ans,subset,pos+1);  
-        subset.pop_back(); 
-        helper(k,n,ans,subset,pos+1);
+        if(sum>n || i>9 || temp.size()>k)return;
+        temp.push_back(i);
+        helper(k,n,res,temp,i+1,sum+i);
+        temp.pop_back();
+        helper(k,n,res,temp,i+1,sum);
     }
+    
 
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<vector<int>> ans;
-        vector<int> subset;
-        helper(k,n,ans,subset,1);
-        return ans;   
+        vector<vector<int>> res;
+        vector<int> temp;
+        helper(k,n,res,temp,1,0);
+        return res;    
     }
 
 };
