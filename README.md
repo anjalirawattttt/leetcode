@@ -54,6 +54,7 @@
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
@@ -187,6 +188,7 @@
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Sorting
 |  |
 | ------- |
@@ -231,6 +233,7 @@
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -493,6 +496,7 @@
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0113-path-sum-ii) |
 | [0216-combination-sum-iii](https://github.com/anjalirawattttt/leetcode/tree/master/0216-combination-sum-iii) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Graph
 |  |
 | ------- |
@@ -502,6 +506,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 ## Bucket Sort
 |  |
@@ -511,4 +516,8 @@
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/anjalirawattttt/leetcode/tree/master/0232-implement-queue-using-stacks) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
