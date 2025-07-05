@@ -11,17 +11,15 @@
  */
 class Solution {
 public:
-    bool isMirror(TreeNode* l,TreeNode* r){
-        if(!l && !r)return true;
-        if(!l || !r)return false;
 
-        return (l->val==r->val) && isMirror(l->left,r->right) && isMirror(l->right,r->left);
-
+    bool helper(TreeNode* n1,TreeNode* n2){
+        if(!n1 && !n2)return true;
+        if(!n1 || !n2 || n1->val!=n2->val)return false;
+        return helper(n1->left,n2->right) && helper(n1->right,n2->left);
     }
-    bool isSymmetric(TreeNode* root) {
-        return isMirror(root,root);
 
-        
-        
+    bool isSymmetric(TreeNode* root) {
+        if(!root)return true;
+        return helper(root->left,root->right); 
     }
 };
