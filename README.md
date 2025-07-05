@@ -234,6 +234,7 @@
 | [0053-maximum-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/anjalirawattttt/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
@@ -307,6 +308,7 @@
 | [0076-minimum-window-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/anjalirawattttt/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/anjalirawattttt/leetcode/tree/master/0344-reverse-string) |
@@ -509,6 +511,7 @@
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/anjalirawattttt/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/anjalirawattttt/leetcode/tree/master/0216-combination-sum-iii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
