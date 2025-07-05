@@ -25,6 +25,7 @@
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -284,6 +285,7 @@
 | ------- |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/anjalirawattttt/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
@@ -302,6 +304,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
@@ -393,6 +396,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
@@ -499,6 +503,7 @@
 | [0047-permutations-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/anjalirawattttt/leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0113-path-sum-ii) |
 | [0216-combination-sum-iii](https://github.com/anjalirawattttt/leetcode/tree/master/0216-combination-sum-iii) |
