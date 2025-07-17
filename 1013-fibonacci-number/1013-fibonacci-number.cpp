@@ -1,14 +1,16 @@
 class Solution {
 public:
-    //tabulation - bottom up
+    //tabulation - bottom up tc O(n) sc O(1)
     int fib(int n) {
         if(n<=1)return n;
-        vector<int> dp(n+1,-1);
-        dp[0]=0;
-        dp[1]=1;
+        int prev2=0;
+        int prev=1;
+        int ans;
         for(int i=2;i<=n;i++){
-            dp[i]=dp[i-1]+dp[i-2];
+            ans=prev+prev2;
+            prev2=prev;
+            prev=ans;
         }
-        return dp[n];
+        return ans;
     }
 };
