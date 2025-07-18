@@ -14,17 +14,17 @@ public:
 
     int rob(vector<int>& nums) {
         int n=nums.size();
-        vector<int> dp(n,-1);
-        dp[0]=nums[0];
-        int neg=0;
+        int prev=nums[0];
+        int prev2=0;
+        int curri=INT_MIN;
         for(int i=1;i<n;i++){
-            int op1=INT_MAX;
-            if(i==1)op1=nums[i]+neg;
-            else op1=nums[i]+dp[i-2];
-            int op2=dp[i-1];
-            dp[i]=max(op1,op2);
+            int op1=nums[i]+prev2;
+            int op2=prev;
+            curri=max(op1,op2);
+            prev2=prev;
+            prev=curri;
         }
-        return dp[n-1];    
+        return prev;    
     }
 
 };
