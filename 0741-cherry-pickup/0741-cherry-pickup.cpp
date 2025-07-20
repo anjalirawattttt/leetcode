@@ -23,7 +23,41 @@ public:
     }
     int cherryPickup(vector<vector<int>>& grid) {
         int n=grid.size();
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n,vector<int>(n,-1)));
-        return max(0,help(grid,0,0,0,n,dp));   
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n,vector<int>(n,0)));
+
+        for(int r1=n-1;r1>=0;r1--){
+            for(int r2=n-1;r2>=0;r2--){
+                for(int c1=n-1;c1>=0;c1--){
+
+                    int c2=r1-r2+c1;
+                    if(c2<0 || c2>=n || grid[r1][c1]==-1 || grid[r2][c2]==-1){
+                        dp[r1][r2][c1]=-1e8;
+                        continue;
+                    }
+
+                    if(r1==n-1 && c1==n-1 && r2==n-1 && c2==n-1){
+                        dp[r1][r2][c1]=grid[r1][c1];
+                    }
+                    else{
+                        int cherries=0;
+                        if(r1==r2 && c1==c2)cherries=grid[r1][c1];
+                        else cherries=grid[r1][c1]+grid[r2][c2];
+
+                        int op1=-1e8,op2=-1e8,op3=-1e8,op4=-1e8;
+                        if(r1<n-1 && r2<n-1)op1=dp[r1+1][r2+1][c1];
+                        if(c1<n-1 && c2<n-1)op2=dp[r1][r2][c1+1];
+                        if(r2<n-1 && c1<n-1)op3=dp[r1][r2+1][c1+1];
+                        if(r1<n-1 && c2<n-1)op4=dp[r1+1][r2][c1];
+
+                        int temp=max({op1,op2,op3,op4});
+                        dp[r1][r2][c1]=cherries+temp;
+                    }
+
+                }
+            }
+        }
+
+
+        return max(0,dp[0][0][0]);   
     }
 };
