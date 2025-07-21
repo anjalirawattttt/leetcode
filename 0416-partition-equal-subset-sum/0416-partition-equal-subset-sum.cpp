@@ -20,25 +20,25 @@ public:
         } 
         if(sum % 2 != 0) return false;
         int target=sum/2;
-        vector<vector<bool>> dp(n,vector<bool>(target+1,false));
-        //target==0
-        for(int i=0;i<n;i++){
-            dp[i][0]=true;
-        }
+        
+        vector<bool> prev(target+1,false);
         //n==0
-        if(nums[0]<=target)dp[0][nums[0]]=true;
+        if(nums[0]<=target)prev[nums[0]]=true;
 
         for(int i=1;i<n;i++){
+            vector<bool> curr(target+1,false);
+            curr[0]=true;
             for(int t=1;t<=target;t++){
                     //pick
                     bool op1=false;
-                    if(t>=nums[i])op1=dp[i-1][t-nums[i]];
+                    if(t>=nums[i])op1=prev[t-nums[i]];
                     //not pick
-                    bool op2=dp[i-1][t];
-                    dp[i][t]=op1|op2;   
+                    bool op2=prev[t];
+                    curr[t]=op1|op2;   
             }
+            prev=curr;
         }
 
-        return dp[n-1][target];
+        return prev[target];
     }
 };
