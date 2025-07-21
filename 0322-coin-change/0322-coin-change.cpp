@@ -15,24 +15,27 @@ public:
     // }
     int coinChange(vector<int>& coins, int amount) {
         int n=coins.size();
-        vector<vector<int>> dp(n,vector<int>(amount+1,1e8));
+        int INF=INT_MAX/2;
+        vector<int> prev(amount+1,INF);
         for(int a=0;a<=amount;a++){
-            if(a%coins[0]==0)dp[0][a]= a / coins[0];
+            if(a % coins[0]==0) prev[a] = a / coins[0];
         }
 
         for(int i=1;i<n;i++){
+            vector<int> curr(amount+1,INF);
             for(int a=0;a<=amount;a++){
-                int op1=INT_MAX;
-                if(a>=coins[i])op1=1+dp[i][a-coins[i]];
+                int op1=INF;
+                if(a>=coins[i])op1=1+curr[a-coins[i]];
                 //not pick
-                int op2=dp[i-1][a];
-                dp[i][a]=min(op1,op2);
+                int op2=prev[a];
+                curr[a]=min(op1,op2);
             }
+            prev=curr;
         }
 
 
 
-        if(dp[n-1][amount]>=1e8)return -1;
-        return dp[n-1][amount];   
+        if(prev[amount]>=INF)return -1;
+        return prev[amount];   
     }
 };
