@@ -73,6 +73,7 @@
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anjalirawattttt/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -302,6 +303,7 @@
 | [0518-coin-change-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/anjalirawattttt/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anjalirawattttt/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -656,4 +658,12 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0062-unique-paths) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
