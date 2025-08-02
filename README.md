@@ -90,6 +90,7 @@
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjalirawattttt/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anjalirawattttt/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/anjalirawattttt/leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -139,6 +140,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/anjalirawattttt/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1813-maximum-erasure-value](https://github.com/anjalirawattttt/leetcode/tree/master/1813-maximum-erasure-value) |
@@ -184,6 +186,7 @@
 | [0541-reverse-string-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0541-reverse-string-ii) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0908-middle-of-the-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 ## Math
 |  |
 | ------- |
@@ -252,6 +255,7 @@
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
@@ -305,6 +309,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0967-minimum-falling-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/anjalirawattttt/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/1250-longest-common-subsequence) |
@@ -402,6 +407,7 @@
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/anjalirawattttt/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/anjalirawattttt/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
