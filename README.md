@@ -32,6 +32,7 @@
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -287,6 +288,7 @@
 | [0064-minimum-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/anjalirawattttt/leetcode/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/anjalirawattttt/leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjalirawattttt/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -331,6 +333,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
@@ -344,6 +347,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -377,6 +381,7 @@
 | [0064-minimum-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/anjalirawattttt/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
