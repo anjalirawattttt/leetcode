@@ -92,6 +92,7 @@
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjalirawattttt/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anjalirawattttt/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1121-partition-array-for-maximum-sum](https://github.com/anjalirawattttt/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
@@ -316,6 +317,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0967-minimum-falling-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
+| [1121-partition-array-for-maximum-sum](https://github.com/anjalirawattttt/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/anjalirawattttt/leetcode/tree/master/1170-shortest-common-supersequence) |
