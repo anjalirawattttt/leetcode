@@ -145,6 +145,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/anjalirawattttt/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
@@ -262,6 +263,7 @@
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -548,6 +550,7 @@
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Doubly-Linked List
 |  |
@@ -582,6 +585,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -602,6 +606,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/anjalirawattttt/leetcode/tree/master/1036-rotting-oranges) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -627,6 +632,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
