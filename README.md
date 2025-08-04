@@ -222,6 +222,7 @@
 | [0035-search-insert-position](https://github.com/anjalirawattttt/leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/anjalirawattttt/leetcode/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0222-count-complete-tree-nodes](https://github.com/anjalirawattttt/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -238,6 +239,7 @@
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
+| [0222-count-complete-tree-nodes](https://github.com/anjalirawattttt/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -585,6 +587,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/anjalirawattttt/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/anjalirawattttt/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
@@ -635,6 +638,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/anjalirawattttt/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/anjalirawattttt/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
