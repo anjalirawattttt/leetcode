@@ -548,6 +548,7 @@
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/anjalirawattttt/leetcode/tree/master/0547-number-of-provinces) |
+| [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
@@ -588,6 +589,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -606,6 +608,7 @@
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0547-number-of-provinces](https://github.com/anjalirawattttt/leetcode/tree/master/0547-number-of-provinces) |
+| [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
@@ -636,6 +639,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
