@@ -20,6 +20,7 @@ public:
         if(!root->left && !root->right){
             ans.push_back(temp);
             temp.erase(pl);
+            return;
         }
         else{
             temp+="->";
