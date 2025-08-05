@@ -11,22 +11,13 @@
  */
 class Solution {
 public:
-    void findRightMost(TreeNode* root , TreeNode* &node){
-        if(!root)return;
-        node=root;
-        findRightMost(root->left,node);
-        findRightMost(root->right,node);
-    }
-
+    TreeNode* prev=NULL;
     void flatten(TreeNode* root) {
         if(!root)return;
-        if(root->left){
-            TreeNode * rightMost=NULL;
-            findRightMost(root->left,rightMost);
-            rightMost->right=root->right;
-            root->right=root->left;
-            root->left=NULL;
-        }
         flatten(root->right);
+        flatten(root->left);
+        root->right=prev;
+        root->left=NULL;
+        prev=root; 
     }
 };
