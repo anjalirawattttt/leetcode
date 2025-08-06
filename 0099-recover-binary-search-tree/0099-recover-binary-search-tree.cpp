@@ -11,26 +11,48 @@
  */
 class Solution {
 public:
-    void help(TreeNode* root,vector<TreeNode*> &inorder){
-        if(!root)return;
-        help(root->left,inorder);
-        inorder.push_back(root);
-        help(root->right,inorder);
-    }
+    
 
     void recoverTree(TreeNode* root) {
-        vector<TreeNode*> inorder;
-        help(root,inorder);
-
+        if(!root)return;
+        TreeNode* curr=root;
+        TreeNode* prev=NULL;
         TreeNode* first=NULL;
         TreeNode* second=NULL;
 
-        for(int i=1;i<inorder.size();i++){
-            if(inorder[i]->val<inorder[i-1]->val){
-                if(!first)first=inorder[i-1];
-                second=inorder[i];
+        while(curr){
+            if(curr->left){
+                TreeNode* node=curr->left;
+                while(node->right!=NULL && node->right!=curr){
+                    node=node->right;
+                }
+                if(node->right==NULL){
+                    node->right=curr;
+                    curr=curr->left;
+                }
+                if(node->right==curr){
+                    //push
+                    if(prev && curr->val<prev->val){
+                        if(!first)first=prev;
+                        second=curr;
+                    }
+                    prev=curr;
+                    node->right=NULL;
+                    curr=curr->right;
+                }
+            }
+            else{
+                //push
+                if(prev && curr->val<prev->val){
+                    if(!first)first=prev;
+                    second=curr;
+                }
+                prev=curr;
+                curr=curr->right;
             }
         }
+
+        
         if(first && second)swap(first->val,second->val);
     }
 };
