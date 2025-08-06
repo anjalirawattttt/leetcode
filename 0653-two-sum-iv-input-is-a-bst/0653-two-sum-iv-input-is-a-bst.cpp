@@ -11,25 +11,17 @@
  */
 class Solution {
 public: 
-    void help(TreeNode* root,vector<int> &inorder){
-        if(!root)return;
-        help(root->left,inorder);
-        inorder.push_back(root->val);
-        help(root->right,inorder);
+    bool help(TreeNode* root,unordered_set<int> &visited,int k){
+        if(!root)return false;
+        if(visited.find(k-root->val)!=visited.end())return true;
+        visited.insert(root->val);
+        return help(root->left,visited,k) || help(root->right,visited,k);
     }
 
     bool findTarget(TreeNode* root, int k) {
         if(!root)return false;
         if(!root->left && !root->right)return false;
-        vector<int> inorder;
-        help(root,inorder);  
-        int i=0,j=inorder.size()-1;
-        while(i<j){
-            int sum=inorder[i]+inorder[j];
-            if(sum==k)return true;
-            else if(sum>k)j--;
-            else i++;
-        }  
-        return false;
+        unordered_set<int> visited;
+        return help(root,visited,k);
     }
 };
