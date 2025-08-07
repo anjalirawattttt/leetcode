@@ -20,7 +20,7 @@ public:
 
     void merge(TreeNode* root, unordered_map<int, TreeNode*>& mp) {
         if (!root) return;
-        if (root->left && mp.count(root->left->val)) {
+        if (root->left && mp.find(root->left->val)!=mp.end()) {
             root->left = mp[root->left->val];
             mp.erase(root->left->val);
             merge(root->left, mp);
@@ -28,7 +28,7 @@ public:
             merge(root->left, mp);
         }
 
-        if (root->right && mp.count(root->right->val)) {
+        if (root->right && mp.find(root->right->val)!=mp.end()) {
             root->right = mp[root->right->val];
             mp.erase(root->right->val);
             merge(root->right, mp);
