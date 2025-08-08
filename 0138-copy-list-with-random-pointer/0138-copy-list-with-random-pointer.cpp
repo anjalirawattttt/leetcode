@@ -17,38 +17,36 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node* temp=NULL;
-        if(!head)return temp;
-        temp=head;
-        //Adding clones
+        if(!head)return NULL;
+        
+        //create new nodes
+        Node* temp=head;
         while(temp){
-            Node* node=new Node(temp->val);
-            node->next=temp->next;
-            temp->next=node;
+            Node* copy=new Node(temp->val);
+            copy->next=temp->next;
+            temp->next=copy;
+            temp=copy->next;
+        }  
+
+        //assign random pointers
+        temp=head;
+        while(temp){
+            if(temp->random)temp->next->random=temp->random->next;
             temp=temp->next->next;
+
         }
-        //setting random pointers
-        temp=head;
-        while(temp){
-            if(!temp->random){
-                temp->next->random=NULL;
-                temp=temp->next->next;
-            }
-            else{
-                temp->next->random=temp->random->next;
-                temp=temp->next->next;
-            }            
-        }
-        //separating lists
+
+        //separate old and new lists
         temp=head;
         Node* newHead=head->next;
-        Node* temp2=newHead;
-        while(temp2){
-            temp->next=temp2->next;
+        while(temp){
+            Node* copy=temp->next;
+            temp->next=temp->next->next;
+            if(copy->next)copy->next=copy->next->next;
             temp=temp->next;
-            if(temp)temp2->next=temp->next;
-            temp2=temp2->next;
         }
         return newHead;
+
+
     }
 };
