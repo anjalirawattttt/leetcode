@@ -10,71 +10,63 @@
  */
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* a=l1;
-        ListNode* b=l2;
-        int c1=0;
-        int c2=0;
-        while(a){
-            a=a->next;
-            c1++;
-        }
-        while(b){
-            b=b->next;
-            c2++;
-        }
-        a=l1;
-        b=l2;
-        ListNode* prev;
-        int carry=0,num;
-        if(c1>=c2){
-            while(a && b){
-                int x=a->val + b->val+carry;
-                num=x%10;
-                carry=x/10;
-                a->val=num;
-                prev=a;
-                a=a->next;
-                b=b->next;
-            }
-            while(a){
-                int x=a->val+carry;
-                num=x%10;
-                carry=x/10;
-                a->val=num;
-                prev=a;
-                a=a->next;
-            }
-            if(carry!=0){
-                prev->next=new ListNode(carry);
-            }
-            return l1;
+    void help(ListNode* l1, ListNode* l2){
+        ListNode* s=l1;
+        ListNode* l=l2;
 
+        int n,carry=0;
+        while(s){
+            n=s->val + l->val + carry;
+            carry=n/10;
+            l->val=n%10;
+            s=s->next;
+            l=l->next;
+        }
+        while(carry){
+            if(l){
+                n=l->val+carry;
+                carry=n/10;
+                l->val=n%10; 
+                l=l->next;   
+            }
+            else{
+                ListNode* node=new ListNode(carry);
+                ListNode* temp=l2;
+                while(temp->next){
+                    temp=temp->next;
+                }
+                temp->next=node;
+                carry=0;               
+            }   
+        }
+    }
+
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        if(!l1 || !l2)return l1 ? l1 : l2;
+
+        int a1=0,a2=0;
+        ListNode* temp1=l1;
+        ListNode* temp2=l2;
+        while(temp1){
+            a1++;
+            temp1=temp1->next;
+        }
+        while(temp2){
+            a2++;
+            temp2=temp2->next;
+        }
+
+        if(a1<=a2){
+            help(l1,l2);
         }
         else{
-            while(a && b){
-                int x=a->val + b->val+carry;
-                num=x%10;
-                carry=x/10;
-                b->val=num;
-                a=a->next;
-                prev=b;
-                b=b->next;
-            }
-            while(b){
-                int x=b->val+carry;
-                num=x%10;
-                carry=x/10;
-                b->val=num;
-                prev=b;
-                b=b->next;
-            }
-            if(carry!=0){
-                prev->next=new ListNode(carry);
-            }
-            return l2;
-
+            help(l2,l1);
         }
-        
+
+        //temp2 is larger one
+        if(a1<=a2){
+            return l2;
+        }
+        return l1;
     }
 };
