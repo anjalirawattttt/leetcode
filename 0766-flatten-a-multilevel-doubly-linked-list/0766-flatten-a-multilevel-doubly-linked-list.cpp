@@ -14,21 +14,15 @@ public:
     Node* flattenDFS(Node* node){
         Node* curr=node;
         Node* last=NULL;
-
         while(curr){
             Node* next=curr->next;
             if(curr->child){
-                Node* child=curr->child;
-                Node* childTail=flattenDFS(child);
-
-                curr->next=child;
-                child->prev=curr;
-
-                if(next){
-                    childTail->next=next;
-                    next->prev=childTail;
-                }
+                Node* childTail=flattenDFS(curr->child);
+                curr->next=curr->child;
+                curr->child->prev=curr;
                 curr->child=NULL;
+                childTail->next=next;
+                if(next)next->prev=childTail;
                 last=childTail;
             }
             else{
@@ -36,13 +30,14 @@ public:
             }
             curr=next;
         }
-        return last;
-        
-    }
 
+        return last;
+    }
     Node* flatten(Node* head) {
         if(!head)return head;
-        flattenDFS(head);
+
+        flattenDFS(head);    
+
         return head;
     }
 };
