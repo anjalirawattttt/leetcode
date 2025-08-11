@@ -219,6 +219,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
+| [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
@@ -425,6 +426,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 ## String
 |  |
 | ------- |
@@ -807,4 +809,8 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/anjalirawattttt/leetcode/tree/master/0148-sort-list) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
