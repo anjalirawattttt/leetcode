@@ -51,9 +51,7 @@ public:
             reverse(temp);
 
             if(temp==head)head=kthNode;
-            else{
-                prevNode->next=kthNode;
-            }
+            if(prevNode)prevNode->next=kthNode;
             prevNode=temp;
 
             temp=nextNode;
