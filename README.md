@@ -74,6 +74,7 @@
 | [0485-max-consecutive-ones](https://github.com/anjalirawattttt/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
@@ -334,6 +335,7 @@
 | [0494-target-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/anjalirawattttt/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -417,6 +419,7 @@
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/anjalirawattttt/leetcode/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
@@ -673,6 +676,7 @@
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0449-serialize-and-deserialize-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0542-01-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/anjalirawattttt/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
