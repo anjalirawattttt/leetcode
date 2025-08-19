@@ -608,6 +608,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0975-range-sum-of-bst) |
@@ -701,6 +702,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -799,6 +801,7 @@
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/anjalirawattttt/leetcode/tree/master/0547-number-of-provinces) |
+| [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -851,4 +854,5 @@
 | ------- |
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
