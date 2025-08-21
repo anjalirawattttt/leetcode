@@ -158,6 +158,7 @@
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/anjalirawattttt/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
@@ -414,6 +415,7 @@
 | [0200-number-of-islands](https://github.com/anjalirawattttt/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/anjalirawattttt/leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Matrix
@@ -617,6 +619,7 @@
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0975-range-sum-of-bst) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
@@ -811,6 +814,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Memoization
