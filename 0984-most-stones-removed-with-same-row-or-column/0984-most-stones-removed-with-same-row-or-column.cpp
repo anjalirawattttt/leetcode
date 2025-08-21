@@ -1,29 +1,63 @@
 class Solution {
 public:
-    void dfs(int i,vector<vector<int>>& stones,vector<bool> &visited){
-        visited[i]=true;
-        for(int j=0;j<stones.size();j++){
-            if(!visited[j]){
-                if(stones[i][0]==stones[j][0] || stones[i][1]==stones[j][1]){
-                    dfs(j,stones,visited);
-                }
-            }
+    int findParent(int node,vector<int>&parent){
+        if(parent[node]==node)return node;
+        return parent[node]=findParent(parent[node],parent);
+    }
+    void unionBySize(int u,int v,vector<int>& parent,vector<int>& size){
+        u=findParent(u,parent);
+        v=findParent(v,parent);
+        if(u==v)return;
+        if(size[u]>size[v]){
+            size[u]+=size[v];
+            parent[v]=u;
+        }
+        else if(size[u]<size[v]){
+            size[v]+=size[u];
+            parent[u]=v;
+        }
+        else{
+            size[v]+=size[u];
+            parent[u]=v;   
         }
     }
+
     int removeStones(vector<vector<int>>& stones) {
         int totalStones=stones.size();
-        int cc=0;//connected components
+        int maxrows=0;
+        int maxcols=0;
+        for(auto &s:stones){
+            maxrows=max(maxrows,s[0]);
+            maxcols=max(maxcols,s[1]);
+        }
+        
+        int n=maxrows+1+maxcols+1;
+        vector<int> parent(n);
+        vector<int> size(n,1);
+        for(int i=0;i<n;i++)parent[i]=i;
 
-        vector<bool> visited(totalStones,false);
+        for(auto &s:stones){
+            int r=s[0];
+            int c=s[1]+maxrows+1;
+            int pr=findParent(r,parent);
+            int pc=findParent(c,parent);
+            if(pr==pc)continue;
+            unionBySize(r,c,parent,size);
+        }
 
-        for(int i=0;i<totalStones;i++){
-            if(!visited[i]){                
-                dfs(i,stones,visited);
+        int cc=0;
+        unordered_set<int> parents;
+
+        for(int i=0;i<n;i++){
+            int p=findParent(i,parent);
+            if(p==i)continue;
+            if(parents.find(p)==parents.end()){
                 cc++;
+                parents.insert(p);
             }
         }
 
+        return totalStones - cc;
 
-        return totalStones-cc;    
     }
 };
