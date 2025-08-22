@@ -638,6 +638,7 @@
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
+| [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Doubly-Linked List
@@ -835,6 +836,7 @@
 | [0871-keys-and-rooms](https://github.com/anjalirawattttt/leetcode/tree/master/0871-keys-and-rooms) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
+| [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Memoization
 |  |
@@ -890,4 +892,8 @@
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+## Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
