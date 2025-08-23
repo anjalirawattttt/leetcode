@@ -118,6 +118,7 @@
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1813-maximum-erasure-value](https://github.com/anjalirawattttt/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -429,6 +430,7 @@
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
+| [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
@@ -845,6 +847,7 @@
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
+| [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Memoization
 |  |
@@ -904,4 +907,8 @@
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
