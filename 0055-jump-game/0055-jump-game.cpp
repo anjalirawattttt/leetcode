@@ -10,6 +10,7 @@ public:
             bool ans=false;
             for(int j=i+1;j<=min(i+nums[i],n-1);j++){
                 ans = ans || dp[j];
+                if(ans)break;
             } 
             dp[i]=ans;   
         }
