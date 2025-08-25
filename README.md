@@ -45,6 +45,7 @@
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/anjalirawattttt/leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/anjalirawattttt/leetcode/tree/master/0130-surrounded-regions) |
+| [0135-candy](https://github.com/anjalirawattttt/leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
@@ -524,6 +525,7 @@
 | [0045-jump-game-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0135-candy](https://github.com/anjalirawattttt/leetcode/tree/master/0135-candy) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anjalirawattttt/leetcode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
