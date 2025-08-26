@@ -1,29 +1,36 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int m=s.size();
-        int n=t.size();
-        int l=0,r=0,sIndex=-1,count=0,minLength=INT_MAX;
+        int n1=s.length(),n2=t.length();
+        if(n2>n1)return "";
 
-        unordered_map<char,int> mp;
-        for(char &ch : t){
-            mp[ch]++;
+        string ans="";
+        int minL=INT_MAX,start=0;
+        unordered_map<char,int> m;
+        for(char &c:t){
+            m[c]++;
         }
 
-        while(r<m){
-            if(mp[s[r]]>0)count++;
-            mp[s[r]]--;
-            while(count==n){
-                if(r-l+1<minLength){
-                    sIndex=l;
-                    minLength=r-l+1;
+        int l=0,r=0;
+        int x=0;
+        while(r<n1){
+            m[s[r]]--;
+            if(m[s[r]]>=0)x++;
+
+            while(x==t.length()){
+                //valid window
+                if(r-l+1<minL){
+                    start=l;
+                    minL=r-l+1;
                 }
-                mp[s[l]]++;
-                if(mp[s[l]]>0)count--;
+                
+                
+                m[s[l]]++;
+                if(m[s[l]]>0) x--;
                 l++;
             }
             r++;
         }  
-        return sIndex==-1?"":s.substr(sIndex,minLength); 
+        return minL==INT_MAX?"":s.substr(start,minL);    
     }
 };
