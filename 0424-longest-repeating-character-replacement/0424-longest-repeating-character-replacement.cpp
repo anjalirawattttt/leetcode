@@ -12,10 +12,6 @@ public:
             if((r-l+1)-maxFreq>k){
                 m[s[l]]--;
                 l++;
-                maxFreq=0;
-                for(int i=l;i<=r;i++){
-                    maxFreq=max(maxFreq,m[s[i]]);   
-                }
             }
             if((r-l+1)-maxFreq<=k)maxLen=max(maxLen,r-l+1); 
             r++;
