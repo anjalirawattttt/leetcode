@@ -234,6 +234,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
+| [0231-power-of-two](https://github.com/anjalirawattttt/leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
@@ -269,6 +270,7 @@
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/anjalirawattttt/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/anjalirawattttt/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -595,6 +597,7 @@
 | [0050-powx-n](https://github.com/anjalirawattttt/leetcode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/anjalirawattttt/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/anjalirawattttt/leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 ## Depth-First Search
