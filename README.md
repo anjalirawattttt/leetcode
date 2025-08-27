@@ -227,6 +227,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/anjalirawattttt/leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/anjalirawattttt/leetcode/tree/master/0066-plus-one) |
@@ -267,6 +268,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
