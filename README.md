@@ -56,6 +56,7 @@
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/anjalirawattttt/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/anjalirawattttt/leetcode/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/anjalirawattttt/leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/anjalirawattttt/leetcode/tree/master/0216-combination-sum-iii) |
@@ -236,6 +237,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/anjalirawattttt/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/anjalirawattttt/leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
@@ -424,6 +426,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/anjalirawattttt/leetcode/tree/master/0204-count-primes) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 ## Union Find
 |  |
@@ -902,6 +905,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/anjalirawattttt/leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 ## Topological Sort
 |  |
