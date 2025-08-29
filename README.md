@@ -73,6 +73,7 @@
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjalirawattttt/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -188,6 +189,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/anjalirawattttt/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjalirawattttt/leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -265,6 +267,7 @@
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -363,6 +366,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/anjalirawattttt/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/anjalirawattttt/leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
+| [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0494-target-sum) |
@@ -544,6 +548,7 @@
 | [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/anjalirawattttt/leetcode/tree/master/0135-candy) |
+| [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anjalirawattttt/leetcode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
