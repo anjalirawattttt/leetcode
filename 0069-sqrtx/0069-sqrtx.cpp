@@ -1,15 +1,13 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        if(x==0 || x<0 )return 0;
-        int l=1,r=x,mid;
-        int ans=0;
-
+        if(x==0 || x==1)return x;
+        int l=1,r=x/2;
+        int ans=1;
         while(l<=r){
-            mid=l + (r-l)/2;
-            long long s=1LL*mid*mid;
-            if(s==x)return mid;
-            else if(s<x){
+            int mid=l+(r-l)/2;
+            if((long long)mid*mid == x)return mid;
+            if((long long)mid*mid < x){
                 ans=mid;
                 l=mid+1;
             }
@@ -18,5 +16,6 @@ public:
             }
         }
         return ans;
+        
     }
 };
