@@ -231,6 +231,7 @@
 | [0908-middle-of-the-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
 ## Math
 |  |
 | ------- |
@@ -252,6 +253,7 @@
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search
@@ -944,4 +946,8 @@
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
