@@ -544,6 +544,7 @@
 | [0583-delete-operation-for-two-strings](https://github.com/anjalirawattttt/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [1078-remove-outermost-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -605,6 +606,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
 ## Linked List
 |  |
 | ------- |
