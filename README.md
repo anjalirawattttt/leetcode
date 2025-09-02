@@ -20,6 +20,7 @@
 | [0045-jump-game-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/anjalirawattttt/leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/anjalirawattttt/leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/anjalirawattttt/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0053-maximum-subarray) |
@@ -249,6 +250,7 @@
 | [0002-add-two-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/anjalirawattttt/leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0029-divide-two-integers) |
+| [0048-rotate-image](https://github.com/anjalirawattttt/leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/anjalirawattttt/leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/anjalirawattttt/leetcode/tree/master/0066-plus-one) |
@@ -489,6 +491,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/anjalirawattttt/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/anjalirawattttt/leetcode/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/anjalirawattttt/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0064-minimum-path-sum) |
