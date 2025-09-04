@@ -11,50 +11,41 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if(list1==NULL && list2==NULL)return NULL;
-        if(list1==NULL)return list2;
-        if(list2==NULL)return list1;
+        if(!list1 || !list2)return list1?list1:list2;
+        ListNode* head,* prev;
         ListNode* temp1=list1;
-        ListNode* temp2=list2;
-        ListNode* temp;
-        ListNode* head=NULL;
-
-        while( temp1!=NULL && temp2!=NULL){
-            if(temp1->val<=temp2->val){
-                if(head==NULL){
-                    head=temp1;
-                    temp=head;
-                }
-                else{
-                    temp->next=temp1;
-                    temp=temp->next;
-                }
+        ListNode* temp2=list2; 
+         if(temp1->val<temp2->val){
+            prev=temp1;
+            head=temp1;
+            temp1=temp1->next;
+        }
+        else{
+            prev=temp2;
+            head=temp2;
+            temp2=temp2->next;
+        } 
+        while(temp1 && temp2){
+            if(temp1->val<temp2->val){
+                prev->next=temp1;
                 temp1=temp1->next;
             }
             else{
-                if(head==NULL){
-                    head=temp2;
-                    temp=head;
-                }
-                else{
-                    temp->next=temp2;
-                    temp=temp->next;
-                }
-                temp2=temp->next;                
+                prev->next=temp2;
+                temp2=temp2->next;
             }
+            prev=prev->next;
+        } 
+        while(temp1){
+            prev->next=temp1;
+            prev=prev->next; 
+            temp1=temp1->next;  
         }
-        while( temp1!=NULL ){
-            temp->next=temp1;
-            temp=temp->next;
-            temp1=temp1->next;
-        }
-        while( temp2!=NULL){
-            temp->next=temp2;
-            temp=temp->next;
-            temp2=temp2->next;
+        while(temp2){
+            prev->next=temp2;
+            prev=prev->next; 
+            temp2=temp2->next;  
         }
         return head;
-
-
     }
 };
