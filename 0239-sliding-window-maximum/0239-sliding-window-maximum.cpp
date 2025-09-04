@@ -3,22 +3,23 @@ public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         vector<int> ans;
         int n=nums.size();
-        //maxheap - element , index
-        priority_queue<pair<int,int>> pq;
-        for(int i=0;i<k-1;i++){
-            pq.push({nums[i],i});
-        }
-        int l=0,r=k-1;
-        while(r<n){
-            pq.push({nums[r],r});
-            while(pq.top().second<l ){
-                pq.pop();
+
+        deque<int> dq;
+        for(int i=0;i<n;i++){
+            if(dq.empty()){
+                dq.push_back(i);
             }
-            int ele=pq.top().first;
-            int idx=pq.top().second;
-            ans.push_back(ele);
-            l++;
-            r++;
+            else{
+                while(!dq.empty() && nums[dq.back()]<=nums[i]){
+                    dq.pop_back();
+                }
+                dq.push_back(i);
+            } 
+
+            if(i>=k-1){
+                while(!dq.empty() && dq.front()<i-k+1)dq.pop_front();
+                ans.push_back(nums[dq.front()]);    
+            }   
         }
         return ans;
     }
