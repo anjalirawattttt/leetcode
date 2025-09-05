@@ -1,17 +1,17 @@
 class Solution {
 public:
-
+    int help(int i,int j,vector<vector<int>>& dp){
+        if(i<0 || j<0)return 0;
+        if(i==0 && j==0)return 1;
+        if(dp[i][j]!=-1)return dp[i][j];
+        //top
+        int op1=help(i-1,j,dp);
+        //left
+        int op2=help(i,j-1,dp);
+        return dp[i][j]=op1+op2;
+    }
     int uniquePaths(int m, int n) {
-        vector<int> dp(n,0);
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(j==0){
-                    dp[j]=1;
-                    continue;
-                }
-                dp[j]=dp[j-1]+dp[j];
-            }
-        }
-        return dp[n-1];    
+        vector<vector<int>> dp(m,vector<int>(n,-1));
+        return help(m-1,n-1,dp);
     }
 };
