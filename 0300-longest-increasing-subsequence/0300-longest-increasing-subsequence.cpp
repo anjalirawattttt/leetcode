@@ -1,19 +1,30 @@
 class Solution {
 public:
+    // int help(vector<int>& nums,int i){
+    //     int op=1;
+    //     for(int j=i-1;j>=0;j--){
+    //         if(nums[j]<nums[i]){
+    //             //take
+    //             op = max( op , 1+help(nums,j) );
+    //         }
+    //     }
+    //     return op;
+    // }
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> temp;
-        temp.push_back(nums[0]);
-
-        int n = nums.size();
-        for(int i = 1; i < n ; i++ ){
-            if(nums[i]>temp.back()){
-                temp.push_back(nums[i]);
+        int n=nums.size();
+        int ans=0;
+        vector<int> dp(n,-1);
+        for(int i=0;i<n;i++){
+            int op=1;
+            for(int j=i-1;j>=0;j--){
+                if(nums[j]<nums[i]){
+                    //take
+                    op = max( op , 1+dp[j] );
+                }
             }
-            else{
-                auto it=lower_bound(temp.begin(),temp.end(),nums[i]);
-                *it=nums[i];
-            }
-        } 
-        return temp.size();  
+            dp[i]=op;
+            ans=max(ans,op);
+        }
+        return ans;   
     }
 };
