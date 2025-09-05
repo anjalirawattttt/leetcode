@@ -11,19 +11,21 @@ public:
     //     return dp[i][j]=op1+op2;
     // }
     int uniquePaths(int m, int n) {
-        vector<vector<int>> dp(m+1,vector<int>(n+1,0));
-        dp[1][1]=1;
+        vector<int> prev(n+1,0);
         for(int i=1;i<=m;i++){
+            vector<int> curr(n+1,0);
+            if(i==1)curr[1]=1;
             for(int j=1;j<=n;j++){
                 if(i==1 && j==1)continue;
                 //top
-                int op1=dp[i-1][j];
+                int op1=prev[j];
                 //left
-                int op2=dp[i][j-1];
-                dp[i][j]=op1+op2;    
+                int op2=curr[j-1];
+                curr[j]=op1+op2;    
             }
+            prev=curr;
         }
 
-        return dp[m][n];
+        return prev[n];
     }
 };
