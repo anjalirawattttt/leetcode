@@ -1,23 +1,19 @@
 class Solution {
 public:
-    
-        
-
-    int climbStairs(int n) {
+    int help(int n,vector<int>& dp){
         if(n<0)return 0;
-        if(n==0 || n==1)return 1;
-        int curri;
-        int prev=1;
-        int prev2=1;
-
-        for(int i=2;i<=n;i++){
-            curri=prev+prev2;
-            prev2=prev;
-            prev=curri;
+        if(n==0){
+            return 1;
         }
-        
-        
-        return curri;
-    
+        if(dp[n]!=-1)return dp[n];
+        //1 step
+        int op1=help(n-1,dp);
+        //2 step
+        int op2=help(n-2,dp);
+        return dp[n]=op1+op2;
+    }
+    int climbStairs(int n) {
+        vector<int> dp(n+1,-1);
+        return help(n,dp); 
     }
 };
