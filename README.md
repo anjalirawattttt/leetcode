@@ -90,6 +90,7 @@
 | [0455-assign-cookies](https://github.com/anjalirawattttt/leetcode/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/anjalirawattttt/leetcode/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/anjalirawattttt/leetcode/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0518-coin-change-ii) |
@@ -296,6 +297,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -369,6 +371,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -973,10 +976,12 @@
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Iterator
 |  |
@@ -987,6 +992,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/anjalirawattttt/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/anjalirawattttt/leetcode/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 ## Number Theory
 |  |
 | ------- |
@@ -1023,4 +1029,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/anjalirawattttt/leetcode/tree/master/0239-sliding-window-maximum) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
