@@ -19,7 +19,7 @@ public:
             s.push(i);
         }
         for(int i=0;i<n;i++){
-            ans=(ans+(arr[i]*1LL*left[i]*right[i])%MOD)%MOD;
+            ans=(ans+(1LL*arr[i]*left[i]*right[i])%MOD)%MOD;
         }
         return (int)ans;    
     }
