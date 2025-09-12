@@ -25,6 +25,7 @@ public:
         return ans;
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
+        if(matrix.empty())return 0;
         int m=matrix.size();
         int n=matrix[0].size();
         vector<int> heights(n,0);
