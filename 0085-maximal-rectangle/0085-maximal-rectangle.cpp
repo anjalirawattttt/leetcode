@@ -2,25 +2,17 @@ class Solution {
 public:
     int maxArea(vector<int>& heights){
         int n=heights.size();
-        vector<int> pse(n);
-        vector<int> nse(n);
         stack<int> s;
         int ans=0;
-        for(int i=0;i<n;i++){
-            while(!s.empty() && heights[s.top()]>=heights[i])s.pop();
-            pse[i]=s.empty()?-1:s.top();
-            s.push(i);
-        }
-        while(!s.empty())s.pop();
-        for(int i=n-1;i>=0;i--){
-            while(!s.empty() && heights[s.top()]>=heights[i])s.pop();
-            nse[i]=s.empty()?n:s.top();
-            s.push(i);
-        }
-
-        for(int i=0;i<n;i++){
-            int width=nse[i]-pse[i]-1;
-            ans=max(ans,heights[i]*width);
+        for(int i=0;i<=n;i++){
+           int height=(i==n)?0:heights[i];
+           while(!s.empty() && height<heights[s.top()]){
+                int h=heights[s.top()];
+                s.pop();
+                int width=s.empty()?i:i-s.top()-1;
+                ans=max(ans,h*width);
+           }
+           s.push(i); 
         }
         return ans;
     }
