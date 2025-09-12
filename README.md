@@ -453,6 +453,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/anjalirawattttt/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/anjalirawattttt/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
@@ -468,6 +469,7 @@
 | [0042-trapping-rain-water](https://github.com/anjalirawattttt/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/anjalirawattttt/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -576,6 +578,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/anjalirawattttt/leetcode/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0449-serialize-and-deserialize-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -619,6 +622,7 @@
 | [0055-jump-game](https://github.com/anjalirawattttt/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/anjalirawattttt/leetcode/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anjalirawattttt/leetcode/tree/master/0455-assign-cookies) |
