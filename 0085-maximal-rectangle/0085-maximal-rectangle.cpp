@@ -1,36 +1,43 @@
 class Solution {
 public:
-    int help(vector<int> hist){
-        int n = hist.size();
-        stack<int> st;
-        int maxArea = 0;
-
-        for (int i = 0; i <= n; i++) {
-            int height = (i == n) ? 0 : hist[i];
-            while (!st.empty() && height < hist[st.top()]) {
-                int h = hist[st.top()];
-                st.pop();
-                int width = st.empty() ? i : (i - st.top() - 1);
-                maxArea = max(maxArea, h * width);
-            }
-            st.push(i);
+    int maxArea(vector<int>& heights){
+        int n=heights.size();
+        vector<int> pse(n);
+        vector<int> nse(n);
+        stack<int> s;
+        int ans=0;
+        for(int i=0;i<n;i++){
+            while(!s.empty() && heights[s.top()]>=heights[i])s.pop();
+            pse[i]=s.empty()?-1:s.top();
+            s.push(i);
+        }
+        while(!s.empty())s.pop();
+        for(int i=n-1;i>=0;i--){
+            while(!s.empty() && heights[s.top()]>=heights[i])s.pop();
+            nse[i]=s.empty()?n:s.top();
+            s.push(i);
         }
 
-        return maxArea;
+        for(int i=0;i<n;i++){
+            int width=nse[i]-pse[i]-1;
+            ans=max(ans,heights[i]*width);
+        }
+        return ans;
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
-        int r=matrix.size();
-        int c=matrix[0].size();
-        vector<int> hist(c,0);
-        int maxArea=0;
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(matrix[i][j]=='1') hist[j]++;
-                else hist[j]=0;
+        int m=matrix.size();
+        int n=matrix[0].size();
+        vector<int> heights(n,0);
+        int ans=0;
+
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(matrix[i][j]=='0')heights[j]=0;
+                else heights[j]++;
             }
-            int area=help(hist);
-            maxArea=max(maxArea,area);
-        } 
-        return maxArea;
+            int area=maxArea(heights);
+            ans=max(ans,area);  
+        }
+        return ans;   
     }
 };
