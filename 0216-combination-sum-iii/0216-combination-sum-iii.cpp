@@ -1,23 +1,21 @@
 class Solution {
 public:
-    void helper(int k,int n,vector<vector<int>>& res,vector<int>& temp,int i,int sum){
-        if(sum==n && temp.size()==k){
-            res.push_back(temp);
+    void help(vector<int> temp,vector<vector<int>>& v,int n,int target,int num){
+        if(target==0 && n==0){
+            v.push_back(temp);
             return;
         }
-        if(sum>n || i>9 || temp.size()>k)return;
-        temp.push_back(i);
-        helper(k,n,res,temp,i+1,sum+i);
+        if(n==0 || target<0 || num>9)return;
+        //take
+        temp.push_back(num);
+        help(temp,v,n-1,target-num,num+1);
         temp.pop_back();
-        helper(k,n,res,temp,i+1,sum);
+        //not take
+        help(temp,v,n,target,num+1);
     }
-    
-
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<vector<int>> res;
-        vector<int> temp;
-        helper(k,n,res,temp,1,0);
-        return res;    
+        vector<vector<int>> v;
+        help({},v,k,n,1);
+        return v;    
     }
-
 };
