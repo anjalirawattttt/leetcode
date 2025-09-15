@@ -1,21 +1,21 @@
 class Solution {
 public:
-    double help(double x,long n){
-        if(n==0)return 1;
-        double ans=1.0;
-        while(n>0){
-            if(n%2==1){
-                ans=ans*x;
-            }
-            x=x*x;
-            n=n>>1;
-        }  
-        return ans; 
+    double help(double x,int N){
+        if(N==0)return 1;
+        double half=help(x,N/2);
+        if(N%2==0){
+            return half*half;
+        }
+        else{
+            return x*half*half;
+        }
     }
     double myPow(double x, int n) {
-        if(n==0)return 1;
-        long N=n;
-        if(n<0)return help(1.0/x,-N);
-        return help(x,N);
+        long long N=n;
+        if(N<0){
+            N=-N;
+            x=1/x;
+        }
+        return help(x,N);   
     }
 };
