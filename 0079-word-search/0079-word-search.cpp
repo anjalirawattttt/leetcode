@@ -1,31 +1,25 @@
 class Solution {
 public:
-    
-
-    bool helper(vector<vector<char>>& board, string word,int i,int sr,int sc){
-        if(i==word.length())return true;
-        if(sr<0 || sc<0 || sr==board.size() || sc==board[0].size() || board[sr][sc]!=word[i] || board[sr][sc]=='#')return false;
-        char ch=board[sr][sc];
-        board[sr][sc]='#';
-        bool op1=helper(board,word,i+1,sr+1,sc);
-        bool op2=helper(board,word,i+1,sr-1,sc);
-        bool op3=helper(board,word,i+1,sr,sc+1);
-        bool op4=helper(board,word,i+1,sr,sc-1);
-        board[sr][sc]=ch;
+    bool help(vector<vector<char>>& board, string word,int i,int j,int idx){
+        if(idx==word.length())return true;
+        if(i<0 || i>=board.size() || j<0 || j>=board[0].size() || board[i][j]!=word[idx] || board[i][j]=='#')return false;
+        char ch=board[i][j];
+        board[i][j]='#';
+        bool op1=help(board,word,i+1,j,idx+1);
+        bool op2=help(board,word,i-1,j,idx+1);
+        bool op3=help(board,word,i,j+1,idx+1);
+        bool op4=help(board,word,i,j-1,idx+1);
+        board[i][j]=ch;
         return op1|op2|op3|op4;
-
-        
     }
-
     bool exist(vector<vector<char>>& board, string word) {
         int m=board.size();
         int n=board[0].size();
-        // vector<vector<bool>> visited(m,vector<bool>(n,false));
-        for(int i=0;i<m;i++) {
+
+        for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 if(board[i][j]==word[0]){
-                    
-                    if(helper(board,word,0,i,j))return true;
+                    if(help(board,word,i,j,0))return true;
                 }
             }
         }
