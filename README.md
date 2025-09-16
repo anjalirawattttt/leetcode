@@ -55,6 +55,7 @@
 | [0135-candy](https://github.com/anjalirawattttt/leetcode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -168,6 +169,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/anjalirawattttt/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/anjalirawattttt/leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/anjalirawattttt/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/anjalirawattttt/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0146-lru-cache) |
@@ -400,6 +402,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/anjalirawattttt/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/anjalirawattttt/leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/anjalirawattttt/leetcode/tree/master/0198-house-robber) |
@@ -574,6 +577,7 @@
 | [0127-word-ladder](https://github.com/anjalirawattttt/leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/anjalirawattttt/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/anjalirawattttt/leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
@@ -971,6 +975,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 ## Bucket Sort
@@ -1053,4 +1058,8 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
