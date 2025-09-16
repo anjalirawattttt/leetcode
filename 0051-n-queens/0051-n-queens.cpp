@@ -1,41 +1,33 @@
 class Solution {
 public:
-    void help(vector<vector<string>>& res,vector<string> temp,vector<int>& col,vector<int>& rd,vector<int>& ld,int n,int i){
+    void help(vector<string> &temp,vector<vector<string>> &ans,int n,int i,unordered_set<int> &cols,unordered_set<int> &leftDiag,unordered_set<int> &rightDiag){
         if(i==n){
-            res.push_back(temp);
+            ans.push_back(temp);
             return;
         }
-
-        
-        for(int k=0;k<n;k++){
-            if(col[k]==0 && rd[i+k]==0 && ld[i-k + n-1]==0){
-                col[k]=1;
-                rd[i+k]=1;
-                ld[i-k + n-1]=1;
-
-                string row(n,'.');
-                row[k]='Q';
-                temp.push_back(row);
-                help(res,temp,col,rd,ld,n,i+1);
-                temp.pop_back();
-
-                col[k]=0;
-                rd[i+k]=0;
-                ld[i-k + n-1]=0;
-            }  
-        }
-
+        for(int j=0;j<n;j++){
+                if(cols.find(j)==cols.end() && leftDiag.find(i+j)==leftDiag.end() && rightDiag.find(i-j)==rightDiag.end()){
+                    cols.insert(j);
+                    leftDiag.insert(i+j);
+                    rightDiag.insert(i-j);
+                    temp[i][j]='Q';
+                    help(temp,ans,n,i+1,cols,leftDiag,rightDiag);
+                    temp[i][j]='.';
+                    cols.erase(j);
+                    leftDiag.erase(i+j);
+                    rightDiag.erase(i-j);
+                }
+            }
 
     }
-
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> res;
-        vector<string> temp;
-        vector<int> col(n,0);
-        vector<int> rd(2*n-1,0);
-        vector<int> ld(2*n-1,0);
-        help(res,temp,col,rd,ld,n,0);
 
-        return res;  
+        vector<vector<string>> ans;
+        vector<string> temp(n,string(n,'.')); 
+        unordered_set<int> cols;
+        unordered_set<int> leftDiag;
+        unordered_set<int> rightDiag;
+        help(temp,ans,n,0,cols,leftDiag,rightDiag);
+        return ans;
     }
 };
