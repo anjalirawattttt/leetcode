@@ -147,6 +147,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3639-zero-array-transformation-i](https://github.com/anjalirawattttt/leetcode/tree/master/3639-zero-array-transformation-i) |
@@ -208,6 +209,7 @@
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Prefix Sum
 |  |
@@ -498,6 +500,7 @@
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Quickselect
 |  |
 | ------- |
@@ -615,6 +618,7 @@
 | [1714-rearrange-spaces-between-words](https://github.com/anjalirawattttt/leetcode/tree/master/1714-rearrange-spaces-between-words) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/anjalirawattttt/leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
@@ -790,6 +794,7 @@
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Tree
 |  |
 | ------- |
@@ -1070,6 +1075,7 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
+| [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Trie
 |  |
 | ------- |
