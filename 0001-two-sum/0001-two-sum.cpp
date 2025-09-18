@@ -1,16 +1,25 @@
 class Solution {
 public:
-    int search(vector<int> &v,int n,int x){
-        for(int i=0;i<n;i++){
-            if(v[i]==x)return i;
-        }
-        return -1;
-    }
     vector<int> twoSum(vector<int>& nums, int target) {
-        for(int i=1;i<nums.size();i++){
-            int j=search(nums,i,target-nums[i]);
-            if(j!=-1)return {j,i};
+        vector<int> ans(2,-1);
+        int n=nums.size();
+        vector<pair<int,int>> v;
+        for(int i=0;i<n;i++){
+            v.push_back({nums[i],i});
         }
-        return {-1,-1};
+        sort(v.begin(),v.end());
+        int l=0,r=n-1;
+        while(l<r){
+            int sum=v[l].first+v[r].first;
+            if(sum==target){
+                ans[0]=v[l].second;
+                ans[1]=v[r].second;
+                break;
+            }
+            else if(sum<target)l++;
+            else r--;
+        }
+        sort(ans.begin(),ans.end());
+        return ans;    
     }
 };
