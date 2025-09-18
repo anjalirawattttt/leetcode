@@ -20,29 +20,16 @@ public:
 */
 
 class Solution {
+    unordered_map<int,Node*> m;
 public:
-    
-
-    Node* help(Node* node,unordered_map<Node*,Node*>& m){
-        if(!node)return NULL;
-
-        if(m.find(node)!=m.end())return m[node];
-
-        Node* temp=new Node(node->val);
-        m[node]=temp;
-
-        for(Node* n:node->neighbors){
-            temp->neighbors.push_back(help(n,m));
-        }
-
-        return m[node];
-    }
-
     Node* cloneGraph(Node* node) {
-        unordered_map<Node*,Node*> m;
-        return help(node,m);
-        
-        
-            
+        if(!node)return NULL;
+        if(m.find(node->val)!=m.end())return m[node->val];
+        Node* newNode= new Node(node->val);
+        m[node->val]=newNode;
+        for(Node* neighbor:node->neighbors){
+            newNode->neighbors.push_back(cloneGraph(neighbor));
+        }
+        return newNode;
     }
 };
