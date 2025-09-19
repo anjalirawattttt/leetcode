@@ -10,29 +10,31 @@
  */
 class Solution {
 public:
+    struct cmp{
+        bool operator()( ListNode* a, ListNode* b)const{
+            return a->val > b->val;
+        }
+    };
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<pair<int,ListNode*>,vector<pair<int,ListNode*>>,greater<pair<int,ListNode*>>> pq;
-
+        priority_queue< ListNode* , vector<ListNode* > , cmp > pq;
         for(int i=0;i<lists.size();i++){
-            if(lists[i])pq.push({lists[i]->val,lists[i]});
-        } 
-        
+            if(lists[i])pq.push(lists[i]);
+        }  
         ListNode* head=NULL;
-        ListNode* temp;
+        ListNode* temp=NULL;
         while(!pq.empty()){
-            ListNode* node=pq.top().second;
-            pq.pop();
             if(!head){
-                head=node;
-                if(node->next)pq.push({node->next->val,node->next});
+                head=pq.top();
+                pq.pop();
                 temp=head;
-                continue;
             }
-            if(node->next)pq.push({node->next->val,node->next});
-            temp->next=node;
-            temp=temp->next;
+            else{
+                temp->next=pq.top();
+                pq.pop();
+                temp=temp->next;
+            }
+            if(temp->next)pq.push(temp->next);
         }
         return head;
-
     }
 };
