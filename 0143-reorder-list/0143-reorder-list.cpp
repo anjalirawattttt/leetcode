@@ -10,17 +10,11 @@
  */
 class Solution {
 public:
-    ListNode* middleNode(ListNode* head) {
-        ListNode* slow=head;
-        ListNode* fast=head;
-        while(fast && fast->next){
-            slow=slow->next;
-            fast=fast->next->next;
-        }
-        return slow;
-    }
     ListNode* reverse(ListNode* head){
-        ListNode* prev=NULL,*curr=head,*next=NULL;
+        if(!head || !head->next)return head;
+        ListNode* prev=NULL;
+        ListNode* curr=head;
+        ListNode* next=head->next;
         while(curr){
             next=curr->next;
             curr->next=prev;
@@ -29,12 +23,22 @@ public:
         }
         return prev;
     }
-
+    ListNode* findMiddle(ListNode* head){
+        if(!head)return head;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        while(fast && fast->next){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        return slow;
+    }
     void reorderList(ListNode* head) {
-        if(!head || !head->next || !head->next->next)return; 
-        //get middle
-        ListNode* middle=middleNode(head);
-        //separate LL 
+        if(!head || !head->next || !head->next->next)return ;
+        //find middle
+        //returns one before middle
+        ListNode* middle=findMiddle(head);
+        //break the LL into 2 parts
         ListNode* head1=head;
         ListNode* head2=middle;
         ListNode* temp=head;
@@ -45,30 +49,20 @@ public:
             }
             temp=temp->next;
         }
+        //Reverse the second part
+        head2=reverse(middle);
+        //connect both LL
+        ListNode* temp1=head1;
+        ListNode* temp2=head2;
 
-        
-        //reverse second LL 
-        head2=reverse(head2);
-        //merge them
-        temp=NULL;
         while(head1 && head2){
-            if(temp){
-                temp->next=head1;
-                temp=temp->next;
-            }
-            else{
-                temp=head1;
-            }
-            head1=head1->next;
-            temp->next=head2;
-            temp=temp->next;
-            head2=head2->next;
-
+            temp1=head1->next;
+            head1->next=head2;
+            temp2=head2->next;
+            if(temp1)head2->next=temp1;
+            head1=temp1;
+            head2=temp2;
         }
-        if(head1){
-            temp->next=head1;
-        }
-
-        return;
+        
     }
 };
