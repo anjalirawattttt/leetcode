@@ -1,27 +1,25 @@
 class Solution {
 public:
-    void help(vector<int> temp,vector<vector<int>>& v,vector<int>& candidates,int target,int i,set<vector<int>> &s){
+    void help(vector<int> temp,vector<vector<int>>& ans,int i,vector<int>& candidates,int target){
         if(target==0){
-            if(s.find(temp)!=s.end())return;
-            s.insert(temp);
-            v.push_back(temp);
+            ans.push_back(temp);
             return;
         }
         if(i>=candidates.size()){
-            return;   
+            return;
         }
-        //not take
-        help(temp,v,candidates,target,i+1,s);
-        // take
+        //take
         if(target>=candidates[i]){
             temp.push_back(candidates[i]);
-            help(temp,v,candidates,target-candidates[i],i,s);
+            help(temp,ans,i,candidates,target-candidates[i]);
+            temp.pop_back();
         }
+        //not take
+        help(temp,ans,i+1,candidates,target);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> v;
-        set<vector<int>> s;
-        help({},v,candidates,target,0,s);
-        return v;   
+        vector<vector<int>> ans;
+        help({},ans,0,candidates,target);
+        return ans;
     }
 };
