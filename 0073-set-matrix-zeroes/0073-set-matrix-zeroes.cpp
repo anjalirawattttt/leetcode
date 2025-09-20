@@ -1,40 +1,27 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        int m=matrix.size();
-        int n=matrix[0].size();
-        bool firstCol=false;
-
-        for(int i=0;i<m;i++){
-            if(matrix[i][0]==0)firstCol=true;
-            for(int j=1;j<n;j++){
+        unordered_set<int> rows;
+        unordered_set<int> cols;
+        for(int i=0;i<matrix.size();i++){
+            for(int j=0;j<matrix[i].size();j++){
                 if(matrix[i][j]==0){
-                    matrix[i][0]=0;
-                    matrix[0][j]=0;
+                    rows.insert(i);
+                    cols.insert(j);
                 }
             }
-        } 
-
-        for(int i=1;i<m;i++){
-            for(int j=1;j<n;j++){
-                if(matrix[0][j]==0 || matrix[i][0]==0)matrix[i][j]=0;
+        }
+        for(auto it=rows.begin();it!=rows.end();it++){
+            int i=*it;
+            for(int j=0;j<matrix[i].size();j++){
+                matrix[i][j]=0;
             }
         }
-
-        //first row
-        if(matrix[0][0]==0){
-            for(int j=0;j<n;j++){
-                matrix[0][j]=0;
+        for(auto it=cols.begin();it!=cols.end();it++){
+            int j=*it;
+            for(int i=0;i<matrix.size();i++){
+                matrix[i][j]=0;
             }
         }
-
-        //first column
-        if(firstCol){
-            for(int i=0;i<m;i++){
-                matrix[i][0]=0;
-            }
-        }
-
-         
     }
 };
