@@ -8,21 +8,13 @@ public:
         int maxFreq=0;
         while(r<n){
             m[s[r]]++;
-            maxFreq=max(maxFreq,m[s[r]]);
-            if(r-l+1-maxFreq<=k)ans=max(ans,r-l+1);
-            else{
-                if(m[s[l]]==maxFreq){
-                    m[s[l]]--;
-                    maxFreq=0;
-                    for(auto &p:m){
-                        maxFreq=max(maxFreq,p.second);
-                    }
-                }
-                else{
-                    m[s[l]]--;
-                }
+            if(m[s[r]]>maxFreq)maxFreq=m[s[r]];
+            
+            if(r-l+1-maxFreq>k){
+                m[s[l]]--;
                 l++;
             }
+            if(r-l+1-maxFreq<=k)ans=max(ans,r-l+1);
             r++;
         }
         return ans;    
