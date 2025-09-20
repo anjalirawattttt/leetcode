@@ -11,17 +11,18 @@
  */
 class Solution {
 public:
-    bool isIdentical(TreeNode* root1, TreeNode* root2){
-        if(!root1 && !root2)return true;
-        if(!root1 || !root2)return false;
-        return root1->val==root2->val && isIdentical(root1->left, root2->left) && isIdentical(root1->right, root2->right);
+    bool isIdentical(TreeNode* node1, TreeNode* node2){
+        if(!node1 && !node2)return true;
+        if(!node1 || !node2)return false;
+        return node1->val==node2->val && isIdentical(node1->left,node2->left) && isIdentical(node1->right,node2->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if(!root && !subRoot)return true;
         if(!root)return false;
-        if(root->val==subRoot->val){
-            if(isIdentical(root,subRoot))return true;
-        }   
-        return isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
+        if(isIdentical(root,subRoot))return true;
+        bool l=isSubtree(root->left,subRoot);
+        if(l)return true;
+        bool r=isSubtree(root->right,subRoot);
+        return r;        
     }
 };
