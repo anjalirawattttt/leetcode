@@ -153,6 +153,7 @@
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3639-zero-array-transformation-i](https://github.com/anjalirawattttt/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Hash Table
 |  |
 | ------- |
@@ -215,6 +216,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -323,6 +325,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -808,6 +811,7 @@
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Tree
 |  |
 | ------- |
@@ -1019,6 +1023,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/anjalirawattttt/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/anjalirawattttt/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Bitmask
 |  |
 | ------- |
@@ -1090,6 +1095,7 @@
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
+| [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Trie
 |  |
 | ------- |
