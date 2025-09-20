@@ -1,7 +1,7 @@
 class Solution {
 public:
     int help(int prev,int i,vector<int>& nums,vector<vector<int>> &dp){
-        if(i>=nums.size())return 0;
+        if(i<0)return 0;
         if(dp[prev][i]!=-1)return dp[prev][i];
         //take
         int op1=0;
