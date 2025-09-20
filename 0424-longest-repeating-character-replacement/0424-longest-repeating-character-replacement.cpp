@@ -11,12 +11,17 @@ public:
             maxFreq=max(maxFreq,m[s[r]]);
             if(r-l+1-maxFreq<=k)ans=max(ans,r-l+1);
             else{
-                m[s[l]]--;
-                l++;
-                maxFreq=0;
-                for(auto &p:m){
-                    maxFreq=max(maxFreq,p.second);
+                if(m[s[l]]==maxFreq){
+                    m[s[l]]--;
+                    maxFreq=0;
+                    for(auto &p:m){
+                        maxFreq=max(maxFreq,p.second);
+                    }
                 }
+                else{
+                    m[s[l]]--;
+                }
+                l++;
             }
             r++;
         }
