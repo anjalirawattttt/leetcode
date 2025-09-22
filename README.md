@@ -150,6 +150,7 @@
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
 | [3639-zero-array-transformation-i](https://github.com/anjalirawattttt/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
@@ -213,6 +214,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
@@ -649,6 +651,7 @@
 | [0621-task-scheduler](https://github.com/anjalirawattttt/leetcode/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/anjalirawattttt/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/anjalirawattttt/leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Greedy
 |  |
