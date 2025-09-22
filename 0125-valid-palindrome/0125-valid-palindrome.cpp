@@ -1,23 +1,21 @@
 class Solution {
 public:
-    
     bool isPalindrome(string s) {
-        string final="";
-        for (char ch : s) {
-            if (ch >= 'A' && ch <= 'Z') {
-                ch += 32;
-                final += ch;
+        int n=s.length();
+        int i=0,j=n-1;
+        while(i<j){
+            if( isalnum(s[i]) && isalnum(s[j]) ){
+                if(s[i]>='A' && s[i]<='Z')s[i]+=32;
+                if(s[j]>='A' && s[j]<='Z')s[j]+=32;
+                if(s[i]!=s[j])return false;
+                i++;
+                j--;
             }
-            else if ((ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9')) {
-                final += ch;
+            else{
+                if(!isalnum(s[i]))i++;
+                if(!isalnum(s[j]))j--;
             }
         } 
-        int l=0,r=final.length()-1;
-        while(l<r){
-            if(final[l]!=final[r])return false;
-            l++;
-            r--;
-        }
-        return true;  
+        return true;
     }
 };
