@@ -1,25 +1,29 @@
 class Solution {
 public:
-    bool help(vector<vector<char>>& board, string word,int i,int j,int idx){
-        if(idx==word.length())return true;
-        if(i<0 || i>=board.size() || j<0 || j>=board[0].size() || board[i][j]!=word[idx] || board[i][j]=='#')return false;
+    bool help(int i,int j,int idx,vector<vector<char>>& board, string word){
+        if(idx>=word.length())return true;
+
         char ch=board[i][j];
         board[i][j]='#';
-        bool op1=help(board,word,i+1,j,idx+1);
-        bool op2=help(board,word,i-1,j,idx+1);
-        bool op3=help(board,word,i,j+1,idx+1);
-        bool op4=help(board,word,i,j-1,idx+1);
+        vector<int> rows={1,-1,0,0};
+        vector<int> cols={0,0,1,-1};
+        for(int k=0;k<4;k++){
+            int r=i+rows[k];
+            int c=j+cols[k];
+            if(r>=0 && c>=0 && r<board.size() && c<board[0].size() && board[r][c]==word[idx]){
+                if(help(r,c,idx+1,board,word))return true;
+            }
+        }
         board[i][j]=ch;
-        return op1|op2|op3|op4;
+        return false;
     }
     bool exist(vector<vector<char>>& board, string word) {
         int m=board.size();
         int n=board[0].size();
-
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 if(board[i][j]==word[0]){
-                    if(help(board,word,i,j,0))return true;
+                    if(help(i,j,1,board,word))return true;
                 }
             }
         }
