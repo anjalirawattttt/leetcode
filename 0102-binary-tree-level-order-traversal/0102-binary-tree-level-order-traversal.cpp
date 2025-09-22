@@ -16,19 +16,18 @@ public:
         if(!root)return ans;
         queue<TreeNode*> q;
         q.push(root);
-
         while(!q.empty()){
             int size=q.size();
-            vector<int> temp;
+            vector<int> v;
             while(size--){
-                TreeNode* node=q.front();
+                TreeNode* temp=q.front();
                 q.pop();
-                temp.push_back(node->val);
-                if(node->left)q.push(node->left);
-                if(node->right)q.push(node->right);
+                v.push_back(temp->val);
+                if(temp->left)q.push(temp->left);
+                if(temp->right)q.push(temp->right);
             }
-            ans.push_back(temp);
+            ans.push_back(v);
         }
-        return ans;   
+        return ans;
     }
 };
