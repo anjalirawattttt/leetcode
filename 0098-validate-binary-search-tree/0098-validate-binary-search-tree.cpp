@@ -11,13 +11,12 @@
  */
 class Solution {
 public:
-    bool validate(TreeNode* node,long minn,long maxx){
-        if(node==NULL)return true;
-        if(node->val<=minn || node->val>=maxx)return false;
-        return validate(node->left,minn,node->val) && validate(node->right,node->val,maxx);
+    bool help(TreeNode* node,long long minEle,long long maxEle){
+        if(!node)return true;
+        if(node->val<=minEle || node->val>=maxEle)return false;
+        return help(node->left,minEle,node->val) && help(node->right,node->val,maxEle);
     }
-
     bool isValidBST(TreeNode* root) {
-        return validate(root,LONG_MIN,LONG_MAX);
+        return help(root->left,LONG_MIN,root->val) && help(root->right,root->val,LONG_MAX);
     }
 };
