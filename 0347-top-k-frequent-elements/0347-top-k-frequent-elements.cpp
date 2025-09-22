@@ -19,7 +19,6 @@ public:
             ans.push_back(pq.top().second);
             pq.pop();
         }
-        reverse(ans.begin(),ans.end());
 
         return ans;    
     }
