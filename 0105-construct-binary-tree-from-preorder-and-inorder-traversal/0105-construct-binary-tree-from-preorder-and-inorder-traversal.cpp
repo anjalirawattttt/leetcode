@@ -11,26 +11,19 @@
  */
 class Solution {
 public:
-    TreeNode* help(int preStart,int preEnd,int inStart,int inEnd,vector<int>& preorder, vector<int>& inorder,unordered_map<int,int>& m){
-        if(preStart>preEnd || inStart>inEnd)return NULL;
-
-        int nodeVal=preorder[preStart];
-        TreeNode* node=new TreeNode(nodeVal);
-        int inRootIndx=m[nodeVal];
-        int numsLeft=inRootIndx-inStart;
-
-
-        node->left=help(preStart+1,preStart+numsLeft,inStart,inRootIndx-1,preorder,inorder,m);
-        node->right=help(preStart+numsLeft+1,preEnd,inRootIndx+1,inEnd,preorder,inorder,m);
-        return node;
+    TreeNode* help(int ps,int pe,int is,int ie,vector<int>& preorder,vector<int>& inorder){
+        if(ps>pe || is>ie)return NULL;
+        TreeNode* root=new TreeNode(preorder[ps]);
+        auto it = find(inorder.begin(), inorder.end(), preorder[ps]);
+        int x = distance(inorder.begin(), it);
+        int left=x-is;
+        int right=ie-x;
+        root->left=help(ps+1,ps+left,is,x-1,preorder,inorder);
+        root->right=help(ps+left+1,pe,x+1,ie,preorder,inorder);
+        return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        //hashmap for inorder 
-        //element->i
-        unordered_map<int,int> m;
-        for(int i=0;i<inorder.size();i++){
-            m[inorder[i]]=i;
-        }
-        return help(0,preorder.size()-1,0,inorder.size()-1,preorder,inorder,m);   
+        int n=preorder.size();
+        return help(0,n-1,0,n-1,preorder,inorder);
     }
 };
