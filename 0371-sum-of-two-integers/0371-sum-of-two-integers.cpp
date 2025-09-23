@@ -1,11 +1,13 @@
 class Solution {
-public:    
+public:
     int getSum(int a, int b) {
-        while(b){
-            int carry = (a & b) << 1 ;
-            a = a ^ b ;
-            b = carry ;
-        }
+        int carry=a&b;
+        a=a^b;
+        while(carry){
+            b=a&(carry<<1);
+            a=a^(carry<<1);
+            carry=b;
+        } 
         return a;   
     }
 };
