@@ -1,36 +1,41 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int n1=s.length(),n2=t.length();
-        if(n2>n1)return "";
-
-        string ans="";
-        int minL=INT_MAX,start=0;
+        int n=s.length();
+        int letters=t.length();
+        if(letters>n)return "";
+        int st=-1;  
+        int minLen=INT_MAX;
         unordered_map<char,int> m;
-        for(char &c:t){
-            m[c]++;
-        }
-
+        //count frequencies
+        for(char &ch:t){
+            m[ch]++;
+        } 
+        //find window
         int l=0,r=0;
-        int x=0;
-        while(r<n1){
-            m[s[r]]--;
-            if(m[s[r]]>=0)x++;
-
-            while(x==t.length()){
-                //valid window
-                if(r-l+1<minL){
-                    start=l;
-                    minL=r-l+1;
+        while(r<n){
+            if(m.find(s[r])!=m.end()){
+                if(m[s[r]]>0){
+                    letters--; 
+                }  
+                m[s[r]]--; 
+            }
+            while(l<n && letters==0){
+                if(r-l+1<minLen){
+                    minLen=r-l+1;
+                    st=l;
                 }
-                
-                
-                m[s[l]]++;
-                if(m[s[l]]>0) x--;
+                if(m.find(s[l])!=m.end()){
+                    m[s[l]]++;
+                    if(m[s[l]]>0){
+                        letters++;
+                    }
+                }
                 l++;
             }
             r++;
-        }  
-        return minL==INT_MAX?"":s.substr(start,minL);    
+        }
+        if(minLen==INT_MAX)return "";
+        return s.substr(st,minLen);
     }
 };
