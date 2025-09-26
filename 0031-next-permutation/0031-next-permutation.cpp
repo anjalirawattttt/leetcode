@@ -1,21 +1,28 @@
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
-        for(int i=nums.size()-1;i>0;i--){
-            //find the break point
+        int n=nums.size();
+        int i=n-1;
+        while(i>0){
             if(nums[i-1]<nums[i]){
-                // int temp=nums[i-1];
-                for(int j=nums.size()-1;j>=i;j--){
-                    if(nums[j]>nums[i-1]){
-                        swap(nums[i-1],nums[j]);
-                        break;
-                    }
-                }  
-                sort(nums.begin()+i,nums.end()); 
-                return;
+                break;
             }
+            i--;
         } 
+        if(i==0){
+            reverse(nums.begin(),nums.end());
+            return;
+        }
+        int refernce=i-1;
+        int justGreater=i;
+        while(i<n){
+            if(nums[i]>nums[refernce] && nums[i]<nums[justGreater]){
+                justGreater=i;
+            }
+            i++;
+        }
+        swap(nums[refernce],nums[justGreater]);
+        sort(nums.begin()+refernce+1,nums.end());
 
-        sort(nums.begin(),nums.end());  
     }
 };
