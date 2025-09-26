@@ -18,14 +18,14 @@ public:
     }
     
     int getRandom() {
-         vector<int> v(s.begin(), s.end());
+         auto it = s.begin();    
+            random_device rd;
+            mt19937 gen(rd());
+            uniform_int_distribution<> dist(0, s.size() - 1);
+            int x = dist(gen);
 
-        // random generator
-        random_device rd;
-        mt19937 gen(rd());
-        uniform_int_distribution<> dist(0, v.size() - 1);
-
-        return v[dist(gen)];    
+            advance(it, x);   
+            return *it;    
     }
 };
 
