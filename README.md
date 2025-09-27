@@ -33,6 +33,7 @@
 | [0063-unique-paths-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/anjalirawattttt/leetcode/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/anjalirawattttt/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/anjalirawattttt/leetcode/tree/master/0075-sort-colors) |
@@ -589,6 +590,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/anjalirawattttt/leetcode/tree/master/0068-text-justification) |
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -608,6 +610,7 @@
 | [0044-wildcard-matching](https://github.com/anjalirawattttt/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/anjalirawattttt/leetcode/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/anjalirawattttt/leetcode/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/anjalirawattttt/leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/anjalirawattttt/leetcode/tree/master/0079-word-search) |
