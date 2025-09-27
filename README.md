@@ -117,6 +117,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -301,6 +302,7 @@
 | [0371-sum-of-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
@@ -1129,4 +1131,8 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->
