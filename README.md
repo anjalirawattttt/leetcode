@@ -310,6 +310,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
+| [3336-water-bottles-ii](https://github.com/anjalirawattttt/leetcode/tree/master/3336-water-bottles-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search
 |  |
@@ -599,6 +600,7 @@
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3336-water-bottles-ii](https://github.com/anjalirawattttt/leetcode/tree/master/3336-water-bottles-ii) |
 ## String
 |  |
 | ------- |
