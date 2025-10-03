@@ -1,54 +1,51 @@
 class Solution {
-    int n = 3, N = 9;
-    int rows[9][10] = {}, cols[9][10] = {}, boxes[9][10] = {};
-    vector<vector<char>>* boardPtr;
-    bool sudokuSolved = false;
-
-    bool couldPlace(int d, int row, int col) {
-        int idx = (row / n) * n + col / n;
-        return rows[row][d] + cols[col][d] + boxes[idx][d] == 0;
+public:
+    bool isSafe(vector<vector<char>>& board,int row,int col,char k){
+        for(int i=0;i<9;i++){
+            if(board[row][i]==k)return false;
+            if(board[i][col]==k)return false;
+            // int r = 3*(row/3) + i/3;
+            // int c = 3*(col/3) + i%3;
+            // if(board[r][c]==k)return false;
+        }
+        int ro = 3*(row/3);
+        int co = 3*(col/3);
+        for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+               if(board[i+ro][j+co]==k)return false; 
+            }
+        }
+        return true;
     }
 
-    void placeNumber(int d, int row, int col) {
-        int idx = (row / n) * n + col / n;
-        rows[row][d]++;
-        cols[col][d]++;
-        boxes[idx][d]++;
-        (*boardPtr)[row][col] = d + '0';
-    }
 
-    void removeNumber(int d, int row, int col) {
-        int idx = (row / n) * n + col / n;
-        rows[row][d]--;
-        cols[col][d]--;
-        boxes[idx][d]--;
-        (*boardPtr)[row][col] = '.';
-    }
 
-    void placeNextNumbers(int row, int col) {
-        if (row == N - 1 && col == N - 1) sudokuSolved = true;
-        else if (col == N - 1) backtrack(row + 1, 0);
-        else backtrack(row, col + 1);
-    }
+    bool solve(vector<vector<char>>& board){
 
-    void backtrack(int row, int col) {
-        if ((*boardPtr)[row][col] == '.') {
-            for (int d = 1; d <= 9; d++) {
-                if (couldPlace(d, row, col)) {
-                    placeNumber(d, row, col);
-                    placeNextNumbers(row, col);
-                    if (!sudokuSolved) removeNumber(d, row, col);
+        for(int row=0;row<9;row++){
+            for(int col=0;col<9;col++){
+
+                if(board[row][col]=='.'){
+                    for(int k='1';k<='9';k++){
+                        if(isSafe(board,row,col,k)){
+                            board[row][col]=k;
+                            if(solve(board))return true;
+                            board[row][col]='.';
+                        }
+
+                    }
+                    //no digit found
+                    return false;
                 }
             }
-        } else placeNextNumbers(row, col);
+        }
+        //all cells filled
+        return true;
+        
     }
 
-public:
     void solveSudoku(vector<vector<char>>& board) {
-        boardPtr = &board;
-        for (int i = 0; i < N; i++)
-            for (int j = 0; j < N; j++)
-                if (board[i][j] != '.') placeNumber(board[i][j] - '0', i, j);
-        backtrack(0, 0);
+        solve(board);   
+
     }
 };
