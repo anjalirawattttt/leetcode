@@ -821,6 +821,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Doubly-Linked List
@@ -935,6 +936,7 @@
 | [1036-rotting-oranges](https://github.com/anjalirawattttt/leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -1038,6 +1040,7 @@
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/anjalirawattttt/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1039-find-the-town-judge](https://github.com/anjalirawattttt/leetcode/tree/master/1039-find-the-town-judge) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Memoization
