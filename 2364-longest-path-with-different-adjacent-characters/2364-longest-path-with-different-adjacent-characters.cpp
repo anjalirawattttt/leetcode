@@ -6,6 +6,7 @@ public:
         for(auto &child:adj[curr]){
             if(child==parent)continue;
             int x=help(curr,child,adj,s,ans);
+            if(s[curr]==s[child])continue;
             if(x>largest){
                 secondLargest=largest;
                 largest=x;
@@ -15,7 +16,6 @@ public:
             }
         }
         ans=max(ans,1+largest+secondLargest);
-        if(parent!=-1 && s[parent]==s[curr])return 0;
         return 1+largest;
     }
     int longestPath(vector<int>& parent, string s) {
