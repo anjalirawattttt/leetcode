@@ -1,10 +1,11 @@
 class Solution {
 public:
-    int help(int prev,int i,vector<vector<int>> &adj,string &s,int &ans){
+    int help(int parent,int curr,vector<vector<int>> &adj,string &s,int &ans){
         int largest=0;
         int secondLargest=0;
-        for(auto &v:adj[i]){
-            int x=help(i,v,adj,s,ans);
+        for(auto &child:adj[curr]){
+            if(child==parent)continue;
+            int x=help(curr,child,adj,s,ans);
             if(x>largest){
                 secondLargest=largest;
                 largest=x;
@@ -14,13 +15,14 @@ public:
             }
         }
         ans=max(ans,1+largest+secondLargest);
-        if(prev!=-1 && s[prev]==s[i])return 0;
-        return max(1,1+largest);
+        if(parent!=-1 && s[parent]==s[curr])return 0;
+        return 1+largest;
     }
     int longestPath(vector<int>& parent, string s) {
         int n=s.length();
         vector<vector<int>> adj(n);    
         for(int i=1;i<n;i++){
+            adj[i].push_back(parent[i]);
             adj[parent[i]].push_back(i);
         }
         int ans=0;
