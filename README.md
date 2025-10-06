@@ -156,6 +156,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -661,6 +662,7 @@
 | [1714-rearrange-spaces-between-words](https://github.com/anjalirawattttt/leetcode/tree/master/1714-rearrange-spaces-between-words) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/anjalirawattttt/leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -824,6 +826,7 @@
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -894,6 +897,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1043,6 +1047,7 @@
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Memoization
 |  |
 | ------- |
@@ -1102,6 +1107,7 @@
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Shortest Path
 |  |
 | ------- |
