@@ -6,13 +6,10 @@ public:
         int n=nums.size();
         while(r<n){
             sum+=nums[r];
-            if(sum>=target){
-                // minLen=min(minLen,r-l+1);
-                while(l<n && sum>=target){
-                    minLen=min(minLen,r-l+1);
-                    sum-=nums[l];
-                    l++;
-                }
+            while(l<=r && sum>=target){
+                minLen=min(minLen,r-l+1);
+                sum-=nums[l];
+                l++;
             }
             r++;
         }
