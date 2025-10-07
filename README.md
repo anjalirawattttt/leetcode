@@ -198,6 +198,7 @@
 | [0229-majority-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/anjalirawattttt/leetcode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -642,6 +643,7 @@
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/anjalirawattttt/leetcode/tree/master/0282-expression-add-operators) |
+| [0290-word-pattern](https://github.com/anjalirawattttt/leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/anjalirawattttt/leetcode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/anjalirawattttt/leetcode/tree/master/0383-ransom-note) |
