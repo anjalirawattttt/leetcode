@@ -24,13 +24,12 @@ public:
             if(!prev){
                 head=temp;
                 prev=temp;
-                if(temp)temp=temp->next;
             }
             else{
                 prev->next=temp;
                 prev=temp;
-                if(temp)temp=temp->next;
-            }            
+            }    
+            if(temp)temp=temp->next;        
         }
         return head;
     }
