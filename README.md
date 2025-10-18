@@ -127,6 +127,7 @@
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
+| [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -790,6 +791,7 @@
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
+| [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
 | [0908-middle-of-the-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -884,6 +886,7 @@
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
+| [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
@@ -1106,6 +1109,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/anjalirawattttt/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/anjalirawattttt/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
 | [0954-maximum-sum-circular-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Bitmask
