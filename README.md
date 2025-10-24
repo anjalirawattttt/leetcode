@@ -167,6 +167,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/anjalirawattttt/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
+| [2675-find-the-width-of-columns-of-a-grid](https://github.com/anjalirawattttt/leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
@@ -620,6 +621,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/anjalirawattttt/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
+| [2675-find-the-width-of-columns-of-a-grid](https://github.com/anjalirawattttt/leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
 ## Simulation
 |  |
