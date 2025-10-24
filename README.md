@@ -327,6 +327,7 @@
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/anjalirawattttt/leetcode/tree/master/0282-expression-add-operators) |
 | [0371-sum-of-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0371-sum-of-two-integers) |
+| [0372-super-pow](https://github.com/anjalirawattttt/leetcode/tree/master/0372-super-pow) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
@@ -439,6 +440,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0372-super-pow](https://github.com/anjalirawattttt/leetcode/tree/master/0372-super-pow) |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0954-maximum-sum-circular-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Dynamic Programming
