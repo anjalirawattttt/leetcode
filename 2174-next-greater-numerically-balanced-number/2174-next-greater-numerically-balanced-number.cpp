@@ -1,15 +1,13 @@
 class Solution {
 public:
     bool isSafe(int n){
-        int num=n;
-        unordered_map<int,int> m;
-        while(num>0){
-            int digit=num%10;
-            m[digit]++;
-            num/=10;
+        string s=to_string(n);
+        vector<int> freq(10,0);
+        for(char &ch:s){
+            freq[ch-'0']++;
         }
-        for(auto &p:m){
-            if(p.first!=p.second)return false;
+        for(int i=0;i<10;i++){
+            if(freq[i]!=0 && freq[i]!=i)return false;
         }
         return true;
     }
