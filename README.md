@@ -316,6 +316,7 @@
 | [0066-plus-one](https://github.com/anjalirawattttt/leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/anjalirawattttt/leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
@@ -456,6 +457,7 @@
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/anjalirawattttt/leetcode/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
+| [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/anjalirawattttt/leetcode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0119-pascals-triangle-ii) |
@@ -904,6 +906,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
@@ -998,6 +1001,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0101-symmetric-tree) |
@@ -1044,6 +1048,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
