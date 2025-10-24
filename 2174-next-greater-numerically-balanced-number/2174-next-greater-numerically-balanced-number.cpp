@@ -15,7 +15,7 @@ public:
     }
     int nextBeautifulNumber(int n) {
         if(n>=666666)return 1224444;
-        for(int i=n+1;i<=1224444;i++){
+        for(int i=n+1;i<=666666;i++){
             if(isSafe(i))return i;
         }
         return -1;
