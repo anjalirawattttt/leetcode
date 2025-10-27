@@ -160,6 +160,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1813-maximum-erasure-value](https://github.com/anjalirawattttt/leetcode/tree/master/1813-maximum-erasure-value) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
@@ -392,6 +393,7 @@
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/anjalirawattttt/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Sorting
 |  |
@@ -1216,6 +1218,7 @@
 | [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Hash Function
 |  |
 | ------- |
