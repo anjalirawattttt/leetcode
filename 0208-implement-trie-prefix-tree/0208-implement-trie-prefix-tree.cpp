@@ -1,6 +1,10 @@
 struct Node{
     Node* links[26];
-    bool flag=false;
+    bool flag;
+    Node() {
+        flag = false;
+        for (int i = 0; i < 26; i++) links[i] = NULL;
+    }
     bool containsKey(char ch){
         return links[ch-'a']!=NULL;
     }
