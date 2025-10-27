@@ -97,6 +97,7 @@
 | [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjalirawattttt/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/anjalirawattttt/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -215,6 +216,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/anjalirawattttt/leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -387,6 +389,7 @@
 | [0287-find-the-duplicate-number](https://github.com/anjalirawattttt/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/anjalirawattttt/leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0371-sum-of-two-integers) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/anjalirawattttt/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -1212,6 +1215,7 @@
 | ------- |
 | [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## Hash Function
 |  |
 | ------- |
