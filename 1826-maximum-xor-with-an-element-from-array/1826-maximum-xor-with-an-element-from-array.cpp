@@ -63,17 +63,16 @@ public:
         Trie* t=new Trie();
         int idx=0;
         for(int i=0;i<n;i++){
-            int maxXOR=-1;
             while(idx<size && nums[idx]<=temp[i][1]){
                 t->insert(nums[idx]);
                 idx++;
             }
             if(idx==0){
-                ans[temp[i][2]]=maxXOR;
-                continue;
+                ans[temp[i][2]]=-1;
             }
-            maxXOR=max(maxXOR,t->getMax(temp[i][0]));
-            ans[temp[i][2]]=maxXOR;
+            else{
+                ans[temp[i][2]]=t->getMax(temp[i][0]);
+            }
 
         }
         return ans;
