@@ -8,10 +8,9 @@ public:
         for(int i=0;i<=n;i++){
             if(!memcmp(s.c_str(),rev.c_str()+i,n-i)){
                 int rem=i;
-                rev+=s.substr(n-i,i);
-                break;
+                return rev+s.substr(n-i,i);
             }
         } 
-        return rev;
+        return rev+s;
     }
 };
