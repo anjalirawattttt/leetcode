@@ -658,6 +658,7 @@
 | [0022-generate-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/anjalirawattttt/leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0038-count-and-say](https://github.com/anjalirawattttt/leetcode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/anjalirawattttt/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/anjalirawattttt/leetcode/tree/master/0058-length-of-last-word) |
