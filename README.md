@@ -677,6 +677,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/anjalirawattttt/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/anjalirawattttt/leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/anjalirawattttt/leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0257-binary-tree-paths) |
@@ -783,6 +784,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0686-repeated-string-match](https://github.com/anjalirawattttt/leetcode/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
@@ -1228,6 +1230,7 @@
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 ## Randomized
@@ -1238,4 +1241,8 @@
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
