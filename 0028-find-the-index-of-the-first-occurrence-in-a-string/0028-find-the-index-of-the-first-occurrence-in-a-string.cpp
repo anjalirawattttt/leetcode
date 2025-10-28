@@ -1,21 +1,45 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int index=-1;
-        for(int i=0;i<haystack.length();i++){
-            int k=i;
-            int j=0;
-            if(haystack[k]==needle[j]){
-                while(k<haystack.length() && j<needle.length() && haystack[k]==needle[j]){
-                    k++;
-                    j++;
-                }
-                if(j == needle.length()){
-                    index=i;
-                    break;
-                }
+        int n=haystack.size();
+        int m=needle.size();
+
+        if(m==0)return 0;
+
+        vector<int> lps(m,0);
+        //construct pi
+        int i=1;
+        int len=0;
+        while(i<m){
+            if(needle[i]==needle[len]){
+                len++;
+                lps[i]=len;
+                i++;
+            }
+            else if(len>0){
+                len=lps[len-1];
+            }
+            else{
+                lps[i]=0;
+                i++;
             }
         }
-        return index;
+
+        //find index
+        int j=0;
+        i=0;
+        while(i<n){
+            if(haystack[i]==needle[j]){
+                j++;
+                i++;
+                if(j==m)return i-m;
+            }
+            else{
+                if(j>0)j=lps[j-1];
+                else i++;
+            }
+        }
+        return -1;  
+
     }
 };
