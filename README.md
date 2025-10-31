@@ -123,6 +123,7 @@
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
@@ -449,6 +450,7 @@
 | [0347-top-k-frequent-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0372-super-pow](https://github.com/anjalirawattttt/leetcode/tree/master/0372-super-pow) |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
+| [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Dynamic Programming
 |  |
@@ -625,6 +627,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
+| [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/anjalirawattttt/leetcode/tree/master/0945-snakes-and-ladders) |
@@ -965,6 +968,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
