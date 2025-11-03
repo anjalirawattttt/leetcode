@@ -61,6 +61,7 @@
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
+| [0149-max-points-on-a-line](https://github.com/anjalirawattttt/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -204,6 +205,7 @@
 | [0141-linked-list-cycle](https://github.com/anjalirawattttt/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/anjalirawattttt/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0160-intersection-of-two-linked-lists](https://github.com/anjalirawattttt/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/anjalirawattttt/leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/anjalirawattttt/leetcode/tree/master/0202-happy-number) |
@@ -324,6 +326,7 @@
 | [0069-sqrtx](https://github.com/anjalirawattttt/leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0149-max-points-on-a-line](https://github.com/anjalirawattttt/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjalirawattttt/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0172-factorial-trailing-zeroes](https://github.com/anjalirawattttt/leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/anjalirawattttt/leetcode/tree/master/0189-rotate-array) |
@@ -1258,6 +1261,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/anjalirawattttt/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 ## Rolling Hash
 |  |
