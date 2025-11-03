@@ -4,17 +4,19 @@ public:
         int n=points.size();
         int result=1;
         for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                double slope=(double)(points[j][1]-points[i][1])/(points[j][0]-points[i][0]);
-                int count=2;
-                for(int k=0;k<n;k++){
-                    if(k!=i && k!=j){
-                        double slope2=(double)(points[k][1]-points[i][1])/(points[k][0]-points[i][0]);
-                        if(slope==slope2)count++;
-                    }
+            unordered_map<double,int> m;
+            int maxCount=1;
+            for(int j=0;j<n;j++){
+                if(i==j)continue;
+                int dy=points[j][1]-points[i][1];
+                int dx=points[j][0]-points[i][0];
+                double theta=atan2(dy,dx);
+                m[theta]++;
+                if(m[theta]+1>maxCount){
+                    maxCount=m[theta]+1;
                 }
-                result=max(result,count);
             }
+            result=max(result,maxCount);
         }
         return result;    
     }
