@@ -224,6 +224,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
@@ -709,6 +710,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0449-serialize-and-deserialize-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -796,6 +798,7 @@
 | [0219-contains-duplicate-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/anjalirawattttt/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/anjalirawattttt/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjalirawattttt/leetcode/tree/master/1046-max-consecutive-ones-iii) |
