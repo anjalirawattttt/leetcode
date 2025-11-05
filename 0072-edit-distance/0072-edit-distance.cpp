@@ -1,54 +1,25 @@
 class Solution {
 public:
-    // int help(int i1,int i2,string s1,string s2,vector<vector<int>>& dp){
-    //     if(i2<0){
-    //         //delete
-    //         return i1+1;
-    //     }
-    //     if(i1<0){
-    //         //insert
-    //         return i2+1;
-    //     }
-    //     if(dp[i1][i2]!=-1)return dp[i1][i2];
-    //     if(s1[i1]==s2[i2]){
-    //         return dp[i1][i2]=help(i1-1,i2-1,s1,s2,dp);  
-    //     }
-    //     //insert
-    //     int op1=1+help(i1,i2-1,s1,s2,dp);
-    //     //delete
-    //     int op2=1+help(i1-1,i2,s1,s2,dp);
-    //     //replace
-    //     int op3=1+help(i1-1,i2-1,s1,s2,dp);
-    //     return dp[i1][i2]=min(op1,min(op2,op3));
-    // }
+    int help(string &word1,int i1,string &word2,int i2,vector<vector<int>> &dp){
+        if(i1==0 && i2==0)return word1[i1]==word2[i2]?0:1 ;
+        if(i2<0)return i1+1;
+        if(i1<0)return i2+1;
+        if(dp[i1][i2]!=-1)return dp[i1][i2];
+
+        if(word1[i1]==word2[i2]){
+            return dp[i1][i2]=help(word1,i1-1,word2,i2-1,dp);
+        }
+        //insert
+        int op1=1+help(word1,i1,word2,i2-1,dp);
+        //delete 
+        int op2=1+help(word1,i1-1,word2,i2,dp);
+        //replace
+        int op3=1+help(word1,i1-1,word2,i2-1,dp);
+        return dp[i1][i2]=min(op1,min(op2,op3));
+    }
     int minDistance(string word1, string word2) {
-        int n=word1.length();
-        int m=word2.length();
-        vector<int> prev(m+1,0);
-        for(int i2=1;i2<=m;i2++){
-            prev[i2]=i2;
-        }
-
-        for(int i1=1;i1<=n;i1++){
-            vector<int> curr(m+1,0);
-            curr[0]=i1;
-            for(int i2=1;i2<=m;i2++){
-                if(word1[i1-1]==word2[i2-1]){
-                    curr[i2]=prev[i2-1];  
-                }
-                else{
-                    //insert
-                    int op1=1+curr[i2-1];
-                    //delete
-                    int op2=1+prev[i2];
-                    //replace
-                    int op3=1+prev[i2-1];
-                    curr[i2]=min(op1,min(op2,op3));
-                } 
-            }
-            prev=curr;
-        }
-
-        return prev[m];    
+        int n1=word1.length(),n2=word2.length();
+        vector<vector<int>> dp(n1,vector<int>(n2,-1));
+        return help(word1,n1-1,word2,n2-1,dp);   
     }
 };
