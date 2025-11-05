@@ -1,27 +1,24 @@
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount) {
-        int n=coins.size();
-        vector<vector<int>> dp(n+1,vector<int>(amount+1,0));
-        vector<int> prev(amount+1,1e7);
-        //base case amount ==0 =>0
-        prev[0]=0;
-        //i-1
-        for(int i=1;i<=n;i++){
-            vector<int> curr(amount+1,1e7);
-            curr[0]=0;
-            for(int a=1;a<=amount;a++){
-                //take
-                int op1=1e7;
-                if(a>=coins[i-1])op1=1+curr[a-coins[i-1]];
-                //not take
-                int op2=prev[a];
-                curr[a]=min(op1,op2);    
-            }
-            prev=curr;
+    int help(vector<int> &coins,int amount,int i,vector<vector<int>> &dp){
+        if(amount==0)return 0;
+        if(i<0){
+            return 1e6;
+        }
+        if(dp[amount][i]!=-1)return dp[amount][i];
+        int op1=INT_MAX;
+        if(amount>=coins[i]){
+            op1= 1 + help(coins,amount-coins[i],i,dp);
         }
 
-        int ans=prev[amount];
-        return ans>=1e7?-1:ans;    
+        int op2=help(coins,amount,i-1,dp);
+        return dp[amount][i]=min(op1,op2);
+    }
+    int coinChange(vector<int>& coins, int amount) {
+        sort(coins.begin(),coins.end());
+        int n=coins.size();
+        vector<vector<int>> dp(amount+1,vector<int>(n,-1));
+        int ans=help(coins,amount,n-1,dp);
+        return ans>=1e6?-1:ans;  
     }
 };
