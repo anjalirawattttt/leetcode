@@ -1,44 +1,26 @@
 class Solution {
 public:
-    // bool help(vector<int>& nums,int n,int target,vector<vector<int>>& dp){
-    //     if(target==0)return true;
-    //     if(n==0)return nums[n]==target;
-    //     if(dp[n][target]!=-1)return dp[n][target];
-    //     //pick
-    //     bool op1=false;
-    //     if(target>=nums[n])op1=help(nums,n-1,target-nums[n],dp);
-    //     //not pick
-    //     bool op2=help(nums,n-1,target,dp);
-    //     return dp[n][target]=op1|op2;
+    bool help(vector<int> &nums,int i,int sum,vector<vector<int>> &dp){
+        if(sum==0)return true;
+        if(sum<0)return false;
+        if(i>=nums.size())return false;
+        if(dp[i][sum]!=-1)return dp[i][sum];
+        //take
+        bool op1=help(nums,i+1,sum-nums[i],dp);
+        //not take
+        bool op2=help(nums,i+1,sum,dp);
+        return dp[i][sum]=op1|op2;
 
-    // }
+    }
     bool canPartition(vector<int>& nums) {
-        int sum=0;
         int n=nums.size();
+        if(n==1)return false;
+        int sum=0;
         for(int i=0;i<n;i++){
             sum+=nums[i];
-        } 
-        if(sum % 2 != 0) return false;
-        int target=sum/2;
-        
-        vector<bool> prev(target+1,false);
-        //n==0
-        if(nums[0]<=target)prev[nums[0]]=true;
-
-        for(int i=1;i<n;i++){
-            vector<bool> curr(target+1,false);
-            curr[0]=true;
-            for(int t=1;t<=target;t++){
-                    //pick
-                    bool op1=false;
-                    if(t>=nums[i])op1=prev[t-nums[i]];
-                    //not pick
-                    bool op2=prev[t];
-                    curr[t]=op1|op2;   
-            }
-            prev=curr;
-        }
-
-        return prev[target];
+        }  
+        if(sum%2==1)return false;
+        vector<vector<int>> dp(n,vector<int>(sum/2+1,-1));
+        return help(nums,0,sum/2,dp);  
     }
 };
