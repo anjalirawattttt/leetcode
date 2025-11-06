@@ -554,6 +554,7 @@
 | [0224-basic-calculator](https://github.com/anjalirawattttt/leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/anjalirawattttt/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/anjalirawattttt/leetcode/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
@@ -711,6 +712,7 @@
 | [0344-reverse-string](https://github.com/anjalirawattttt/leetcode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/anjalirawattttt/leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0394-decode-string](https://github.com/anjalirawattttt/leetcode/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjalirawattttt/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -865,6 +867,7 @@
 | [0224-basic-calculator](https://github.com/anjalirawattttt/leetcode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/anjalirawattttt/leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/anjalirawattttt/leetcode/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
 ## Depth-First Search
 |  |
