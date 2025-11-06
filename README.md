@@ -123,6 +123,7 @@
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/anjalirawattttt/leetcode/tree/master/0739-daily-temperatures) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
@@ -558,6 +559,7 @@
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/anjalirawattttt/leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -573,6 +575,7 @@
 | [0085-maximal-rectangle](https://github.com/anjalirawattttt/leetcode/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/anjalirawattttt/leetcode/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/anjalirawattttt/leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
