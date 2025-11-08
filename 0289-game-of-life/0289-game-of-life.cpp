@@ -1,42 +1,40 @@
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
-        vector<int> rows={0,0,1,1,-1,-1,1,-1};
-        vector<int> cols={1,-1,0,-1,1,0,1,-1};
-        for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[0].size();j++){
-                if((board[i][j]&1)==1){
-                    int lives=0;
+        int m=board.size();
+        int n=board[0].size();
+        vector<int> rows={1,1,1,-1,-1,-1,0,0};
+        vector<int> cols={0,1,-1,0,1,-1,1,-1};
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                int currBit=board[i][j]&1;
+                if(currBit==0){
+                    int liveNeighbors=0;
                     for(int k=0;k<8;k++){
-                        int r = i + rows[k];
-                        int c = j + cols[k];
-                        if(r>=0 && c>=0 && r<board.size() && c<board[0].size() && (board[r][c]&1)==1)lives++;
+                        int r=i+rows[k];
+                        int c=j+cols[k];
+                        if(r>=0 && r<m && c>=0 && c<n && (board[r][c]&1)==1)liveNeighbors++;
+                        if(liveNeighbors>3)break;
                     }
-                    if(lives==2 || lives==3){
-                        int x=1<<1;
-                        board[i][j]=board[i][j]|x;
-                    }    
+                    if(liveNeighbors==3)board[i][j]=2;
                 }
                 else{
-                    int lives=0;
+                    int liveNeighbors=0;
                     for(int k=0;k<8;k++){
-                        int r = i + rows[k];
-                        int c = j + cols[k];
-                        if(r>=0 && c>=0 && r<board.size() && c<board[0].size() && (board[r][c]&1)==1)lives++;
+                        int r=i+rows[k];
+                        int c=j+cols[k];
+                        if(r>=0 && r<m && c>=0 && c<n && (board[r][c]&1)==1)liveNeighbors++;
+                        if(liveNeighbors>3)break;
                     }
-                    if(lives==3){
-                        int x=1<<1;
-                        board[i][j]=board[i][j]|x;
-                    }
+                    if(liveNeighbors<2 || liveNeighbors>3)board[i][j]=1;
+                    else board[i][j]=3;
                 }
             }
         }
-        for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[0].size();j++){
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
                 board[i][j]=board[i][j]>>1;
             }
-        }
-        
-
+        }    
     }
 };
