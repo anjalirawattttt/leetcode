@@ -162,6 +162,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/anjalirawattttt/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -597,6 +598,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
@@ -813,6 +815,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/anjalirawattttt/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 | [1813-maximum-erasure-value](https://github.com/anjalirawattttt/leetcode/tree/master/1813-maximum-erasure-value) |
 ## String Matching
 |  |
@@ -1191,6 +1194,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/anjalirawattttt/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
 | [0954-maximum-sum-circular-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 | [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Bitmask
 |  |
@@ -1259,6 +1263,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/anjalirawattttt/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/anjalirawattttt/leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 ## Ordered Set
 |  |
 | ------- |
