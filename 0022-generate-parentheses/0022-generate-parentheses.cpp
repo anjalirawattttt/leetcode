@@ -1,26 +1,22 @@
 class Solution {
 public:
-    void help(string temp,vector<string>& v,int n,int open){
-        if(n==0 && open==0){
-            v.push_back(temp);
+    void help(int open,int n,vector<string> &ans,string temp){
+        if(open==0 && n==0){
+            ans.push_back(temp);
             return;
         }
+        //open
         if(n>0){
-            //'('
-            temp+='(';
-            help(temp,v,n-1,open+1);
-            temp.pop_back();
+            help(open+1,n-1,ans,temp+"(");
         }
+        //close
         if(open>0){
-            //')'
-            temp+=')';
-            help(temp,v,n,open-1);
-            temp.pop_back();
+            help(open-1,n,ans,temp+")");
         }
     }
     vector<string> generateParenthesis(int n) {
-        vector<string> v;
-        help("",v,n,0);
-        return v;   
+        vector<string> ans;
+        help(0,n,ans,"");
+        return ans;    
     }
 };
