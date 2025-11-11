@@ -1,24 +1,23 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int minn=0;
-        int maxx=0;
+        int sum=0,maxSum=0;
         for(char &c:s){
             if(c=='('){
-                minn++;
-                maxx++;
+                sum++;
+                maxSum++;
             }
             else if(c==')'){
-                minn--;
-                maxx--;
+                sum--;
+                maxSum--;
             }
             else{
-                minn--;
-                maxx++;
+                maxSum++;
+                sum--;    
             }
-            if(minn<0)minn=0;
-            if(maxx<0)return false;
-        }
-        return minn==0;
+            if(sum<0)sum=0;
+            if(maxSum<0)return false;
+        } 
+        return sum==0;  
     }
 };
