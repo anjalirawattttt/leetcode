@@ -1,19 +1,15 @@
 class Solution {
 public:
+    bool help(int idx,vector<int> &nums,vector<int> &dp){
+        if(idx==nums.size()-1)return true;
+        if(dp[idx]!=-1)return dp[idx];
+        for(int i=1;i<=nums[idx];i++){
+            if(help(idx+i,nums,dp))return true;
+        }
+        return dp[idx]=false;
+    }
     bool canJump(vector<int>& nums) {
-        bool canJump=true;
-        int temp=1;
-        int n=nums.size();
-        for(int i=n-2;i>=0;i--){
-            if(nums[i]>=temp){
-                canJump=true;
-                temp=1;
-            }
-            else{
-                canJump=false;
-                temp++;
-            }
-        }  
-        return canJump;  
+        vector<int> dp(nums.size(),-1);
+        return help(0,nums,dp);    
     }
 };
