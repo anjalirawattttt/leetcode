@@ -1,18 +1,22 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
+        int l=0,r=0,n=s.length();
+        int characters=0;
+        unordered_map<char,int> m;
         int ans=0;
-        vector<int> hash(3,-1);
-        int n=s.length();
-        int l=0,r=0;
         while(r<n){
-            hash[s[r]-'a']=r;
-            if(hash[0]!=-1 && hash[1]!=-1 && hash[2]!=-1){
-                int minIdx=min(hash[0],min(hash[1],hash[2]));
-                ans+=minIdx+1;
+            if(m.find(s[r])==m.end())characters++;
+            m[s[r]]=r;
+            if(characters==3){
+                int minIdx=INT_MAX;
+                for(auto &p:m){
+                    minIdx=min(minIdx,p.second);
+                }
+                ans+=1+minIdx;
             }
             r++;
         }
-        return ans;    
+        return ans;        
     }
 };
