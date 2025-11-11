@@ -2,39 +2,13 @@ class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
         int n=nums.size();
-        vector<int> ans(n);
         stack<int> s;
-        vector<bool> visited(n,false);
-        
-        for(int idx=0;idx<2*n;idx++){
-            int i=(idx%n);
-            if(s.empty()){
-                s.push(i);
-            }
-            else if(nums[i]>nums[s.top()]){
-                while(!s.empty() && nums[i]>nums[s.top()]){
-                    visited[s.top()]=true;
-                    ans[s.top()]=nums[i];
-                    s.pop();
-                }
-                if(!visited[i]){
-                    s.push(i);
-                    visited[i]=true; 
-                }
-            }
-            else{
-                if(!visited[i]){
-                    s.push(i);
-                    visited[i]=true; 
-                }    
-            }
+        vector<int> nge(n);
+        for(int i=2*n-1;i>=0;i--){
+            while(!s.empty() && s.top()<=nums[i%n])s.pop();
+            nge[i%n]=s.empty()?-1:s.top();
+            s.push(nums[i%n]);
         }
-        while(!s.empty()){
-            ans[s.top()]=-1;
-            s.pop();
-        }
-
-        
-        return ans;    
+        return nge;
     }
 };
