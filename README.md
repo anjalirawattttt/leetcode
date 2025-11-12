@@ -135,6 +135,7 @@
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
+| [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -242,6 +243,7 @@
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
+| [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -449,6 +451,7 @@
 | [0621-task-scheduler](https://github.com/anjalirawattttt/leetcode/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/anjalirawattttt/leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
+| [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -801,6 +804,7 @@
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anjalirawattttt/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
+| [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
