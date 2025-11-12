@@ -174,6 +174,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2227-sum-of-subarray-ranges](https://github.com/anjalirawattttt/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/anjalirawattttt/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
@@ -579,6 +580,7 @@
 | [1078-remove-outermost-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2227-sum-of-subarray-ranges](https://github.com/anjalirawattttt/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -592,6 +594,7 @@
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2227-sum-of-subarray-ranges](https://github.com/anjalirawattttt/leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
