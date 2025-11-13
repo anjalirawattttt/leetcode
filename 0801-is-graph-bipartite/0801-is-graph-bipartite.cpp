@@ -3,7 +3,7 @@ public:
     bool help(int i,vector<int> &color,vector<vector<int>>& graph){
         queue<int> q;
         q.push(i);  
-        color[i]=0;
+        color[0]=0;
 
         while(!q.empty()){
             int u=q.front();
