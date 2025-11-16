@@ -338,6 +338,7 @@
 | [0050-powx-n](https://github.com/anjalirawattttt/leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/anjalirawattttt/leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/anjalirawattttt/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/anjalirawattttt/leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0096-unique-binary-search-trees) |
@@ -405,6 +406,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/anjalirawattttt/leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/anjalirawattttt/leetcode/tree/master/0136-single-number) |
@@ -684,6 +686,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/anjalirawattttt/leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/anjalirawattttt/leetcode/tree/master/0068-text-justification) |
 | [0258-add-digits](https://github.com/anjalirawattttt/leetcode/tree/master/0258-add-digits) |
 | [0289-game-of-life](https://github.com/anjalirawattttt/leetcode/tree/master/0289-game-of-life) |
@@ -709,6 +712,7 @@
 | [0044-wildcard-matching](https://github.com/anjalirawattttt/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/anjalirawattttt/leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/anjalirawattttt/leetcode/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/anjalirawattttt/leetcode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/anjalirawattttt/leetcode/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/anjalirawattttt/leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/anjalirawattttt/leetcode/tree/master/0076-minimum-window-substring) |
