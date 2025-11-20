@@ -1347,5 +1347,6 @@
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/anjalirawattttt/leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1801-average-time-of-process-per-machine](https://github.com/anjalirawattttt/leetcode/tree/master/1801-average-time-of-process-per-machine) |
 | [1877-find-followers-count](https://github.com/anjalirawattttt/leetcode/tree/master/1877-find-followers-count) |
+| [1942-primary-department-for-each-employee](https://github.com/anjalirawattttt/leetcode/tree/master/1942-primary-department-for-each-employee) |
 | [2087-confirmation-rate](https://github.com/anjalirawattttt/leetcode/tree/master/2087-confirmation-rate) |
 <!---LeetCode Topics End-->
