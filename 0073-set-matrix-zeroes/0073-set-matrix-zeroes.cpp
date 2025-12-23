@@ -13,12 +13,13 @@ public:
                 }
             }
         }
+
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(cols[j] || rows[i]){
+                if(rows[i]==1 || cols[j]==1){
                     matrix[i][j]=0;
                 }
             }
-        }    
+        }
     }
 };
