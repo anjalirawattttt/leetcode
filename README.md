@@ -159,6 +159,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/anjalirawattttt/leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1266-minimum-time-visiting-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/anjalirawattttt/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -367,6 +368,7 @@
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anjalirawattttt/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [1013-fibonacci-number](https://github.com/anjalirawattttt/leetcode/tree/master/1013-fibonacci-number) |
+| [1266-minimum-time-visiting-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1370-count-number-of-nice-subarrays](https://github.com/anjalirawattttt/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/anjalirawattttt/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2481-strictly-palindromic-number](https://github.com/anjalirawattttt/leetcode/tree/master/2481-strictly-palindromic-number) |
@@ -1327,6 +1329,7 @@
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/anjalirawattttt/leetcode/tree/master/0149-max-points-on-a-line) |
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
+| [1266-minimum-time-visiting-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 ## Rolling Hash
 |  |
 | ------- |
