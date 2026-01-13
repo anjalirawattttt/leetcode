@@ -187,6 +187,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3321-type-of-triangle](https://github.com/anjalirawattttt/leetcode/tree/master/3321-type-of-triangle) |
+| [3453-separate-squares-i](https://github.com/anjalirawattttt/leetcode/tree/master/3453-separate-squares-i) |
 | [3639-zero-array-transformation-i](https://github.com/anjalirawattttt/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
@@ -407,6 +408,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
+| [3453-separate-squares-i](https://github.com/anjalirawattttt/leetcode/tree/master/3453-separate-squares-i) |
 | [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
 ## Bit Manipulation
 |  |
