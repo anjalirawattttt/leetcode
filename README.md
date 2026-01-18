@@ -136,6 +136,7 @@
 | [0830-largest-triangle-area](https://github.com/anjalirawattttt/leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
+| [0875-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -402,6 +403,7 @@
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
+| [0875-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjalirawattttt/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anjalirawattttt/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
