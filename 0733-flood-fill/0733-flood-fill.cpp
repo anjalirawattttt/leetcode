@@ -1,24 +1,23 @@
 class Solution {
 public:
-    bool isSafe(int r ,int c, int m, int n){
-        return r<m && c<n && r>=0 && c>=0;
-    }
-    void helper(vector<vector<int>>& image, int sr, int sc, int color,int x){
-        image[sr][sc]=color;
-        vector<int> rows={1,-1,0,0};
-        vector<int> cols={0,0,1,-1};
+    vector<int> rows={0,0,1,-1};
+    vector<int> cols={1,-1,0,0};
+    void dfs(int i,int j,vector<vector<int>> &image,int color,int pc){
+        image[i][j]=color;
         for(int k=0;k<4;k++){
-            int r = sr + rows[k];
-            int c = sc + cols[k];
-            if(isSafe(r,c,image.size(),image[0].size()) && image[r][c]==x){
-                helper(image,r,c,color,x);
+            int r=i+rows[k];
+            int c=j+cols[k];
+            if(r>=0 && c>=0 && r<image.size() && c<image[0].size() && image[r][c]==pc){
+                dfs(r,c,image,color,pc);
             }
         }
+
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int x=image[sr][sc];
-        if(x==color)return image;
-        helper(image,sr,sc,color,x);
+        int m=image.size();
+        int n=image[0].size();
+        if(color==image[sr][sc])return image;
+        dfs(sr,sc,image,color,image[sr][sc]);
         return image;   
     }
 };
