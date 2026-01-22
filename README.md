@@ -160,6 +160,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/anjalirawattttt/leetcode/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/anjalirawattttt/leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1266-minimum-time-visiting-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anjalirawattttt/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/anjalirawattttt/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -793,6 +794,7 @@
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anjalirawattttt/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/anjalirawattttt/leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1250-longest-common-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/anjalirawattttt/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -990,6 +992,7 @@
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/anjalirawattttt/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
@@ -1345,6 +1348,7 @@
 | [0139-word-break](https://github.com/anjalirawattttt/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/anjalirawattttt/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Hash Function
 |  |
