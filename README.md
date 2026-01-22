@@ -177,6 +177,7 @@
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1813-maximum-erasure-value](https://github.com/anjalirawattttt/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -483,6 +484,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/anjalirawattttt/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/anjalirawattttt/leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
@@ -845,6 +847,7 @@
 | [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Counting Sort
@@ -852,6 +855,7 @@
 | ------- |
 | [0274-h-index](https://github.com/anjalirawattttt/leetcode/tree/master/0274-h-index) |
 | [0561-array-partition](https://github.com/anjalirawattttt/leetcode/tree/master/0561-array-partition) |
+| [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 ## Sliding Window
 |  |
 | ------- |
