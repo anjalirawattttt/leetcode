@@ -181,6 +181,7 @@
 | [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
+| [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
@@ -711,6 +712,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/anjalirawattttt/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
+| [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2675-find-the-width-of-columns-of-a-grid](https://github.com/anjalirawattttt/leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 | [3797-design-spreadsheet](https://github.com/anjalirawattttt/leetcode/tree/master/3797-design-spreadsheet) |
 ## Simulation
@@ -995,6 +997,7 @@
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
@@ -1129,6 +1132,7 @@
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
