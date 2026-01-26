@@ -583,6 +583,7 @@
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Stack
@@ -1321,11 +1322,13 @@
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
 ## Shortest Path
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Biconnected Component
 |  |
 | ------- |
@@ -1418,4 +1421,5 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
