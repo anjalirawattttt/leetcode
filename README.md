@@ -130,6 +130,7 @@
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
@@ -415,6 +416,7 @@
 | [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
 | [0611-valid-triangle-number](https://github.com/anjalirawattttt/leetcode/tree/master/0611-valid-triangle-number) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/anjalirawattttt/leetcode/tree/master/0875-koko-eating-bananas) |
@@ -648,6 +650,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0502-ipo](https://github.com/anjalirawattttt/leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/anjalirawattttt/leetcode/tree/master/0621-task-scheduler) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -707,6 +710,7 @@
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
 | [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/anjalirawattttt/leetcode/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/anjalirawattttt/leetcode/tree/master/0945-snakes-and-ladders) |
@@ -990,6 +994,7 @@
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/anjalirawattttt/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1131,6 +1136,7 @@
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/anjalirawattttt/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1420,6 +1426,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Graph Theory
