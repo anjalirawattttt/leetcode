@@ -1006,6 +1006,7 @@
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/anjalirawattttt/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
@@ -1144,6 +1145,7 @@
 | [1073-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -1419,10 +1421,12 @@
 |  |
 | ------- |
 | [1020-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1020-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Graph Theory
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anjalirawattttt/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
