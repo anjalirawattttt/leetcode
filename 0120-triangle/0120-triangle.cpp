@@ -1,31 +1,27 @@
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
-        int m=triangle.size();
-        int n=triangle[m-1].size();
-        vector<vector<int>> dp;
-        for(int i=0;i<m;i++){
-            dp.push_back(vector<int> (i+1,-1));
-        }
-
-        for(int i=0;i<m;i++){
-            for(int j=0;j<triangle[i].size();j++){
-                if(i==0 && j==0){
-                    dp[i][j]=triangle[i][j];
-                }
-                else{
-                    int top=INT_MAX,tl=INT_MAX;
-                    if(i>0 && j>0)tl=dp[i-1][j-1];
-                    if(i>0 && j<i)top=dp[i-1][j];
-                    dp[i][j]=triangle[i][j]+min(top,tl);
-                }
+        int n=triangle.size();
+        vector<vector<int>> dp(n,vector<int>(n,0));
+        dp[0][0]=triangle[0][0];
+        for(int i=1;i<n;i++){
+            for(int j=0;j<=i;j++){
+                //top
+                int op1=INT_MAX;
+                if(j<i)op1=dp[i-1][j];
+                //top left
+                int op2=INT_MAX;
+                if(j>0)op2=dp[i-1][j-1];
+                dp[i][j]=triangle[i][j]+min(op1,op2);
+                // cout<<dp[i][j]<<" ";
             }
-        }
+            // cout<<endl;
+        } 
 
-        int ans=INT_MAX;
-        for(int i=0;i<dp[m-1].size();i++){
-            ans=min(ans,dp[m-1][i]);
-        }
-        return ans;
+        int ans=INT_MAX; 
+        for(int j=0;j<n;j++){
+            ans=min(ans,dp[n-1][j]);
+        } 
+        return ans; 
     }
 };
