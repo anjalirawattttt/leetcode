@@ -1,24 +1,25 @@
 class Solution {
 public:
-    int help(vector<int> &coins,int amount,int i,vector<vector<int>> &dp){
+    int help(int i,vector<int> &coins,int amount,vector<vector<int>>& dp){
         if(amount==0)return 0;
         if(i<0){
-            return 1e6;
+            return 1e5;
         }
-        if(dp[amount][i]!=-1)return dp[amount][i];
+        if(dp[i][amount]!=-1)return dp[i][amount];
+        //take
         int op1=INT_MAX;
         if(amount>=coins[i]){
-            op1= 1 + help(coins,amount-coins[i],i,dp);
+            op1=1+help(i,coins,amount-coins[i],dp);
         }
-
-        int op2=help(coins,amount,i-1,dp);
-        return dp[amount][i]=min(op1,op2);
+        //not take
+        int op2=help(i-1,coins,amount,dp);
+        return dp[i][amount]=min(op1,op2);
     }
     int coinChange(vector<int>& coins, int amount) {
-        sort(coins.begin(),coins.end());
         int n=coins.size();
-        vector<vector<int>> dp(amount+1,vector<int>(n,-1));
-        int ans=help(coins,amount,n-1,dp);
-        return ans>=1e6?-1:ans;  
+        sort(coins.begin(),coins.end());
+        vector<vector<int>> dp(n,vector<int>(amount+1,-1));
+        int ans=help(n-1,coins,amount,dp); 
+        return ans>=1e5 ? -1 : ans ;   
     }
 };
