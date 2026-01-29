@@ -186,6 +186,7 @@
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anjalirawattttt/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
@@ -344,6 +345,7 @@
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/anjalirawattttt/leetcode/tree/master/1129-longest-string-chain) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/anjalirawattttt/leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -430,6 +432,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [3453-separate-squares-i](https://github.com/anjalirawattttt/leetcode/tree/master/3453-separate-squares-i) |
 | [3827-implement-router](https://github.com/anjalirawattttt/leetcode/tree/master/3827-implement-router) |
@@ -454,6 +457,7 @@
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/anjalirawattttt/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/anjalirawattttt/leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 ## Sorting
@@ -589,6 +593,7 @@
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/anjalirawattttt/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/anjalirawattttt/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Stack
@@ -1300,6 +1305,7 @@
 |  |
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1371,6 +1377,7 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anjalirawattttt/leetcode/tree/master/0493-reverse-pairs) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/anjalirawattttt/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3678-design-task-manager](https://github.com/anjalirawattttt/leetcode/tree/master/3678-design-task-manager) |
