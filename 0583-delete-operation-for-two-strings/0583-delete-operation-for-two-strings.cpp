@@ -1,31 +1,37 @@
 class Solution {
 public:
+    int help(int i1,string s1,int i2,string s2,vector<vector<int>>& dp){
+        if(i1<0 || i2<0)return 0;
+        if(dp[i1][i2]!=-1)return dp[i1][i2];
+        if(s1[i1]==s2[i2]){
+            return dp[i1][i2]=1+help(i1-1,s1,i2-1,s2,dp);
+        }
+        int op1=help(i1-1,s1,i2,s2,dp);
+        int op2=help(i1,s1,i2-1,s2,dp);
+        return dp[i1][i2]=max(op1,op2);
+    }
     int longestCommonSubsequence(string text1, string text2) {
         int n1=text1.length();
         int n2=text2.length();
-        vector<int> prev(n2+1,0);
+        vector<vector<int>> dp(n1+1,vector<int>(n2+1,0));
 
         for(int i1=1;i1<=n1;i1++){
-            vector<int> curr(n2+1,0);
             for(int i2=1;i2<=n2;i2++){
-                if(text1[i1-1]==text2[i2-1]) curr[i2]=1+prev[i2-1];
-                //not match
+                if(text1[i1-1]==text2[i2-1]){
+                    dp[i1][i2]=1+dp[i1-1][i2-1];
+                }
                 else{
-                    curr[i2]=max(prev[i2],curr[i2-1]);
+                    int op1=dp[i1-1][i2];
+                    int op2=dp[i1][i2-1];
+                    dp[i1][i2]=max(op1,op2);
                 }
             }
-            prev=curr;
         }
-        return prev[n2];      
-    }
 
+        return dp[n1][n2];    
+    }
     int minDistance(string word1, string word2) {
-        int n1=word1.length();
-        int n2=word2.length();
-        int lcs=longestCommonSubsequence(word1,word2);  
-        int ans=0;
-        ans+=n1-lcs;
-        ans+=n2-lcs;
-        return ans; 
+        int temp=longestCommonSubsequence(word1,word2);
+        return word1.length()+word2.length()-(2*temp);    
     }
 };
