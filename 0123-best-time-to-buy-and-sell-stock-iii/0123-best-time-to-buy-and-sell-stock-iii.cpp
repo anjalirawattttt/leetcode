@@ -25,7 +25,7 @@ public:
     }
     int maxProfit(vector<int>& prices) {
         int n=prices.size();   
-        vector<vector<vector<int>>> dp(2,vector<vector<int>>(n,vector<int>(3,-1)));     
+        vector<vector<vector<int>>> dp(2,vector<vector<int>>(n,vector<int>(2,-1)));     
         return help(1,0,0,prices,dp);    
     }
 };
