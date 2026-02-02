@@ -1,35 +1,28 @@
 class Solution {
 public:
-    // int help(int i,int buy,vector<int>& prices,int fee,vector<vector<int>>& dp){
-    //     if(i==prices.size())return 0;
-    //     int profit=0;
-    //     if(dp[i][buy]!=-1)return dp[i][buy];
-    //     if(buy){
-    //         //buy-not buy
-    //         profit=max(-prices[i]-fee+help(i+1,0,prices,fee,dp),help(i+1,1,prices,fee,dp));
-    //     }
-    //     else{
-    //         //sell-not sell
-    //         profit=max(+prices[i]+help(i+1,1,prices,fee,dp),help(i+1,0,prices,fee,dp));
-    //     }
-    //     return dp[i][buy]=profit;
-    // }
-    int maxProfit(vector<int>& prices, int fee) {
-        int n=prices.size();
-        vector<int> next(2,0);
-
-        for(int i=n-1;i>=0;i--){
-            vector<int> curr(2,0);
-            for(int buy=0;buy<=1;buy++){
-                if(buy){
-                    curr[buy]=max(-prices[i]-fee+next[0],next[1]);
-                }
-                else{
-                    curr[buy]=max(prices[i]+next[1],next[0]);
-                }
-            }
-            next=curr;
+    int help(int buy,int i,vector<int> &prices,vector<vector<int>>& dp,int fee){
+        if(i>=prices.size()){
+            return 0;
         }
-        return next[1];   
+        if(dp[buy][i]!=-1)return dp[buy][i];
+        int profit=0;
+        if(buy){
+            //buy
+             profit = max(profit,-prices[i]+help(0,i+1,prices,dp,fee) );
+            //not buy
+             profit = max(profit,help(buy,i+1,prices,dp,fee));
+        }
+        else{
+            //sell
+             profit = max(profit,prices[i]-fee+help(1,i+1,prices,dp,fee));
+            //not sell
+             profit = max(profit,help(buy,i+1,prices,dp,fee));
+        }
+        return dp[buy][i]=profit;
+    }
+    int maxProfit(vector<int>& prices,int fee) {
+        int n=prices.size();
+        vector<vector<int>> dp(2,vector<int>(n,-1));
+        return help(1,0,prices,dp,fee);    
     }
 };
