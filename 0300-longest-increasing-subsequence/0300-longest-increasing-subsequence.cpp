@@ -14,7 +14,30 @@ public:
     }
     int lengthOfLIS(vector<int>& nums) {
         int n=nums.size();
-        vector<vector<int>> dp(n+1,vector<int>(n,-1));
-        return help(-1,n-1,nums,dp);    
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        //tabulation
+
+
+        // BASECASE dp[prev][0]=0;
+
+        for(int i=1;i<=n;i++){
+            //idx=i-1
+            for(int prev=0;prev<=n;prev++){
+                //prev==0 means prev==-1
+                //real idx prev-1
+                if(prev==0 || nums[prev-1]>nums[i-1]){
+                    //take
+                    int op1=1+dp[i][i-1];
+                    //not take
+                    int op2=dp[prev][i-1];
+                    dp[prev][i]=max(op1,op2);
+                }
+                else{
+                    dp[prev][i]=dp[prev][i-1];
+                }
+            }
+        }
+
+        return dp[0][n];    
     }
 };
