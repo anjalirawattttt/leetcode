@@ -1,30 +1,34 @@
 class Solution {
 public:
-    bool isPalindrome(int i,int j,string &s){
-        while(i<j){
-            if(s[i]!=s[j])return false;
-            i++;
-            j--;
+    bool isPalindrome(string &temp){
+        int l=0,r=temp.size()-1;
+        while(l<r){
+            if(temp[l]!=temp[r]){
+                return false;
+            }
+            l++;
+            r--;
         }
         return true;
     }
-
-    int help(int i,string &s,vector<int>& dp){
-        if(i>=s.length())return 0;
-        if(dp[i]!=-1)return dp[i];
-        int minCuts=INT_MAX;
-        for(int j=i;j<s.length();j++){
-            if(isPalindrome(i,j,s)){
-                int cuts=1+help(j+1,s,dp);
-                minCuts=min(minCuts,cuts);
+    int help(int i,int j,string &s,vector<vector<int>> &dp){
+        if(i>j)return 0;
+        if(dp[i][j]!=-1)return dp[i][j];
+        string temp="";
+        int minPalindromes=INT_MAX;
+        for(int k=i;k<=j;k++){
+            temp+=s[k];
+            int palindromes=0;
+            if(isPalindrome(temp)){
+                palindromes=1+help(k+1,j,s,dp);
+                minPalindromes=min(minPalindromes,palindromes);
             }
         }
-        return dp[i]=minCuts;
+        return dp[i][j]=minPalindromes;
     }
-
     int minCut(string s) {
         int n=s.length();
-        vector<int> dp(n,-1);
-        return help(0,s,dp)-1;    
+        vector<vector<int>> dp(n,vector<int>(n,-1));
+        return help(0,n-1,s,dp)-1;   
     }
 };
