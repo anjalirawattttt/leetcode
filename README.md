@@ -123,6 +123,7 @@
 | [0673-number-of-longest-increasing-subsequence](https://github.com/anjalirawattttt/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anjalirawattttt/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
@@ -264,6 +265,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/anjalirawattttt/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/anjalirawattttt/leetcode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
@@ -951,6 +953,7 @@
 | [0328-odd-even-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
@@ -1062,6 +1065,7 @@
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/anjalirawattttt/leetcode/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0449-serialize-and-deserialize-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0460-lfu-cache](https://github.com/anjalirawattttt/leetcode/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/anjalirawattttt/leetcode/tree/master/0860-design-circular-queue) |
@@ -1410,6 +1414,7 @@
 | ------- |
 | [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 ## Randomized
 |  |
