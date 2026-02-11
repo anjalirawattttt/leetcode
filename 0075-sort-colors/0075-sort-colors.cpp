@@ -5,18 +5,17 @@ public:
         int l=0,mid=0,r=n-1;
         while(mid<=r){
             if(nums[mid]==0){
-                swap(nums[mid],nums[l]);
+                swap(nums[l],nums[mid]);
                 l++;
                 mid++;
             }
-            else if(nums[mid]==1){
-                mid++;
-            }
-            else{
-                swap(nums[mid],nums[r]);
+            else if(nums[mid]==2){
+                swap(nums[r],nums[mid]);
                 r--;
             }
-        }
-        
+            else{
+                mid++;
+            }
+        }    
     }
 };
