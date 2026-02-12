@@ -131,6 +131,7 @@
 | [0739-daily-temperatures](https://github.com/anjalirawattttt/leetcode/tree/master/0739-daily-temperatures) |
 | [0741-cherry-pickup](https://github.com/anjalirawattttt/leetcode/tree/master/0741-cherry-pickup) |
 | [0747-min-cost-climbing-stairs](https://github.com/anjalirawattttt/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0772-construct-quad-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0772-construct-quad-tree) |
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/anjalirawattttt/leetcode/tree/master/0792-binary-search) |
@@ -267,6 +268,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/anjalirawattttt/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
 | [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
@@ -821,6 +823,7 @@
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/anjalirawattttt/leetcode/tree/master/0686-repeated-string-match) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
@@ -1163,6 +1166,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
+| [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
