@@ -23,12 +23,14 @@ class Solution {
 public:
     unordered_map<int,Node*> m;
     Node* cloneGraph(Node* node) {
-        if(!node)return NULL;
+        if(!node)return node;
         if(m.find(node->val)!=m.end())return m[node->val];
-        m[node->val]=new Node(node->val);
-        for(Node* neighbor:node->neighbors) {
-            m[node->val]->neighbors.push_back(cloneGraph(neighbor));
+        Node* temp = new Node(node->val);
+        m[node->val]=temp;
+        for(Node* neighbor : node->neighbors){
+            temp->neighbors.push_back(cloneGraph(neighbor));
         }
-        return m[node->val];   
+        return temp;
+
     }
 };
