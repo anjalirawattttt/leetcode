@@ -1056,6 +1056,7 @@
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -1141,6 +1142,7 @@
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/anjalirawattttt/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1199,6 +1201,7 @@
 | [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1251,6 +1254,7 @@
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/anjalirawattttt/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
