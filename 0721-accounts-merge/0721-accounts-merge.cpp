@@ -1,68 +1,47 @@
 class Solution {
 public:
-    int findParent(int node,vector<int>& parent){
-        if(parent[node]==node)return node;
-        return parent[node]=findParent(parent[node],parent);//compression
-    }
-    void unionBySize(int u,int v,vector<int>& parent,vector<int>& size){
-        int pu=findParent(u,parent);
-        int pv=findParent(v,parent);
-        if(pu==pv)return;
-        if(size[pu]>size[pv]){
-            parent[pv]=pu;
-            size[pu]+=size[pv];
-        }
-        else if(size[pu]<size[pv]){
-            parent[pu]=pv;
-            size[pv]+=size[pu];
-        }
-        else{
-            parent[pu]=pv;
-            size[pv]+=size[pu];   
+    void dfs(string &email,unordered_set<string> &visited,unordered_map<string,vector<string>> &adj,vector<string> &temp){
+        visited.insert(email);
+        temp.push_back(email);
+        for(auto &nbr:adj[email]){
+            if(visited.find(nbr)==visited.end()){
+                dfs(nbr,visited,adj,temp);
+            }
         }
     }
-
+    //dfs
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        //accounts from 0 to n-1
-        int n=accounts.size();
-        vector<int> parent(n);
-        vector<int> size(n,1);
-        for(int i=0;i<n;i++){
-            parent[i]=i;
-        }  
+        unordered_map<string,string> emailToName;
+        unordered_map<string,vector<string>> adj;
 
-
-        unordered_map<string,int> owner;//email->which account    
-        for(int i=0;i<n;i++){
-            for(int j=1;j<accounts[i].size();j++){
-                string email=accounts[i][j];
-                if(owner.find(email)==owner.end()){
-                    owner[email]=i;
-                }
-                else{
-                    unionBySize(i,owner[email],parent,size);
+        for( auto & account : accounts){
+            string name = account[0];
+            for(int i=1;i<account.size();i++){
+                string email=account[i];
+                emailToName[email]=name;
+                if(i>1){
+                    adj[account[i]].push_back(account[1]);
+                    adj[account[1]].push_back(account[i]);
                 }
             }
         } 
 
-        vector<vector<string>> mergedAccounts(n);
-        for(auto &[mail,o]:owner){
-            int p=findParent(o,parent);
-            mergedAccounts[p].push_back(mail);
-        }
+        unordered_set<string> visited;
+        vector<vector<string>> ans;
+        //dfs
 
-        vector<vector<string>> res;
-
-        for(int i=0;i<n;i++){
-            if(mergedAccounts[i].size()!=0){
-                string name=accounts[i][0];
-                mergedAccounts[i].insert(mergedAccounts[i].begin(),name);
-                sort(mergedAccounts[i].begin()+1,mergedAccounts[i].end());
-                res.push_back(mergedAccounts[i]);
+        for( auto &p : emailToName ){
+            string email = p.first;
+            if(visited.find(email)==visited.end()){
+                vector<string> temp;
+                dfs(email,visited,adj,temp);
+                sort(temp.begin(),temp.end());
+                temp.insert(temp.begin(),emailToName[email]);
+                ans.push_back(temp);
             }
-        }
-        
+        }   
 
-        return res; 
+        return ans; 
+
     }
 };
