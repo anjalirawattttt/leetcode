@@ -184,6 +184,7 @@
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -440,6 +441,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/anjalirawattttt/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/anjalirawattttt/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/anjalirawattttt/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -678,6 +680,7 @@
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2429-design-a-food-rating-system](https://github.com/anjalirawattttt/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/anjalirawattttt/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -747,6 +750,7 @@
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/anjalirawattttt/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/anjalirawattttt/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2675-find-the-width-of-columns-of-a-grid](https://github.com/anjalirawattttt/leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
@@ -1047,6 +1051,7 @@
 | [1300-critical-connections-in-a-network](https://github.com/anjalirawattttt/leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/anjalirawattttt/leetcode/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -1191,6 +1196,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjalirawattttt/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/anjalirawattttt/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1992-find-all-groups-of-farmland](https://github.com/anjalirawattttt/leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2121-find-if-path-exists-in-graph](https://github.com/anjalirawattttt/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -1475,6 +1481,7 @@
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
