@@ -1012,6 +1012,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/anjalirawattttt/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/anjalirawattttt/leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjalirawattttt/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -1157,6 +1158,7 @@
 | [0226-invert-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/anjalirawattttt/leetcode/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/anjalirawattttt/leetcode/tree/master/0399-evaluate-division) |
 | [0404-sum-of-left-leaves](https://github.com/anjalirawattttt/leetcode/tree/master/0404-sum-of-left-leaves) |
@@ -1367,6 +1369,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjalirawattttt/leetcode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/anjalirawattttt/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2364-longest-path-with-different-adjacent-characters](https://github.com/anjalirawattttt/leetcode/tree/master/2364-longest-path-with-different-adjacent-characters) |
@@ -1476,6 +1479,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
+| [0310-minimum-height-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/anjalirawattttt/leetcode/tree/master/0399-evaluate-division) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anjalirawattttt/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
