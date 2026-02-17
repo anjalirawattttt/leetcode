@@ -675,6 +675,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/anjalirawattttt/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0502-ipo](https://github.com/anjalirawattttt/leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/anjalirawattttt/leetcode/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjalirawattttt/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -1031,6 +1032,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/anjalirawattttt/leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0794-swim-in-rising-water) |
@@ -1179,6 +1181,7 @@
 | [0695-max-area-of-island](https://github.com/anjalirawattttt/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/anjalirawattttt/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/anjalirawattttt/leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/anjalirawattttt/leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
@@ -1387,6 +1390,7 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/anjalirawattttt/leetcode/tree/master/0399-evaluate-division) |
+| [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/anjalirawattttt/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anjalirawattttt/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -1492,6 +1496,7 @@
 | [0207-course-schedule](https://github.com/anjalirawattttt/leetcode/tree/master/0207-course-schedule) |
 | [0310-minimum-height-trees](https://github.com/anjalirawattttt/leetcode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/anjalirawattttt/leetcode/tree/master/0399-evaluate-division) |
+| [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anjalirawattttt/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
