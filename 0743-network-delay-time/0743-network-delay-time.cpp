@@ -8,11 +8,11 @@ public:
 
         vector<int> dist(n+1,INT_MAX);
         //shortest distance from a node to all other nodes
-        queue<pair<int,int>> q;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> q;
         q.push({0,k});
         dist[k]=0;
         while(!q.empty()){
-            auto [d,u]=q.front();
+            auto [d,u]=q.top();
             q.pop();
             if(d>dist[u])continue;
             for(auto &[v,time]:adj[u]){
