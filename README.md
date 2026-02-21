@@ -183,6 +183,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/anjalirawattttt/leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/anjalirawattttt/leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1559-cherry-pickup-ii](https://github.com/anjalirawattttt/leetcode/tree/master/1559-cherry-pickup-ii) |
+| [1584-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/anjalirawattttt/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1622-max-value-of-equation](https://github.com/anjalirawattttt/leetcode/tree/master/1622-max-value-of-equation) |
 | [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -1410,6 +1411,7 @@
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Brainteaser
 |  |
@@ -1498,6 +1500,7 @@
 | [0778-swim-in-rising-water](https://github.com/anjalirawattttt/leetcode/tree/master/0778-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/anjalirawattttt/leetcode/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1584-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/anjalirawattttt/leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
@@ -1509,6 +1512,7 @@
 | [0743-network-delay-time](https://github.com/anjalirawattttt/leetcode/tree/master/0743-network-delay-time) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/anjalirawattttt/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anjalirawattttt/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1584-min-cost-to-connect-all-points](https://github.com/anjalirawattttt/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anjalirawattttt/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Eulerian Circuit
 |  |
