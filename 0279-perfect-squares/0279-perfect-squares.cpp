@@ -1,31 +1,28 @@
 class Solution {
 public:
-    // int help(int num,vector<int> &dp){
-    //     if(num==0)return 0;
-    //     if(dp[num]!=-1)return dp[num];
-        
+    int help(int i,vector<int> &v,int rem,vector<vector<int>> &dp){
+        if(rem==0)return 0;
+        if(i<0)return 1e5;
 
-    //     int op=INT_MAX;
-    //     for(int i=num;i>=1;i--){
-    //         int sq=(int) sqrt(i);
-    //         if(sq*sq==i){
-    //             op=min(op,num/i+help(num%i,dp));
-    //         }
-    //     }
-    //     return dp[num]=op;
-    // }
-    int numSquares(int n) {
-        vector<int> dp(n+1,INT_MAX);
-        dp[0]=0;
-        for(int num=1;num<=n;num++){
-            for(int i=1;i*i<=num;i++){
-                int square=i*i;
-                dp[num]=min(dp[num],1+dp[num-square]);
-            }  
+        if(dp[i][rem]!=-1)return dp[i][rem];
+
+        int op1=1e5;
+        //take
+        if(v[i]<=rem){
+            op1=1+help(i,v,rem-v[i],dp);
         }
+        //not take
+        int op2=help(i-1,v,rem,dp);
+        return dp[i][rem]=min(op1,op2);
 
-
-
-        return dp[n];    
+    }
+    int numSquares(int n) {
+        vector<int> v;
+        for(int i=1;i*i<=n;i++){
+            v.push_back(i*i);
+        }  
+        vector<vector<int>> dp(v.size(),vector<int> (n+1,-1));
+        int ans=help(v.size()-1,v,n,dp);
+        return ans;      
     }
 };
