@@ -394,6 +394,7 @@
 | [0268-missing-number](https://github.com/anjalirawattttt/leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/anjalirawattttt/leetcode/tree/master/0279-perfect-squares) |
 | [0282-expression-add-operators](https://github.com/anjalirawattttt/leetcode/tree/master/0282-expression-add-operators) |
+| [0343-integer-break](https://github.com/anjalirawattttt/leetcode/tree/master/0343-integer-break) |
 | [0371-sum-of-two-integers](https://github.com/anjalirawattttt/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0372-super-pow](https://github.com/anjalirawattttt/leetcode/tree/master/0372-super-pow) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anjalirawattttt/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -577,6 +578,7 @@
 | [0312-burst-balloons](https://github.com/anjalirawattttt/leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/anjalirawattttt/leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/anjalirawattttt/leetcode/tree/master/0338-counting-bits) |
+| [0343-integer-break](https://github.com/anjalirawattttt/leetcode/tree/master/0343-integer-break) |
 | [0410-split-array-largest-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/anjalirawattttt/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anjalirawattttt/leetcode/tree/master/0435-non-overlapping-intervals) |
