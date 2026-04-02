@@ -1,23 +1,26 @@
 class Solution {
 public:
-    string countAndSay(int n) {    
-        string ans="1";
-        for(int i=1;i<=n-1;i++){
-            string temp="";
-            int idx=0;
-            while(idx<ans.length()){
-                char c=ans[idx];
-                int count=1;
-                while(idx<ans.length()-1 && ans[idx]==ans[idx+1]){
-                    count++;
-                    idx++;
-                } 
-                temp+= to_string(count) ;
-                temp+= c;
-                idx++;
-            }
-            ans=temp;  
+    string help(string s){
+        string ans="";
+        int i=0,n=s.length();
+        while(i<n){
+            char c=s[i];
+            int temp=i;
+            while(i<n-1 && s[i+1]==c)i++;
+            int length = i-temp+1;
+            ans+=to_string(length);
+            ans+=c;
+            i++;
         }
-        return ans;    
+        return ans;
+    }
+    string countAndSay(int n) {
+        string s="1";
+        for(int i=2;i<=n;i++){
+            // cout<<s<<endl;
+            s=help(s);
+        } 
+        // cout<<s<<endl;
+        return s;   
     }
 };
