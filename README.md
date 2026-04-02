@@ -650,6 +650,7 @@
 | [0678-valid-parenthesis-string](https://github.com/anjalirawattttt/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/anjalirawattttt/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/anjalirawattttt/leetcode/tree/master/0739-daily-temperatures) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0937-online-stock-span](https://github.com/anjalirawattttt/leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/anjalirawattttt/leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -846,6 +847,7 @@
 | [0752-open-the-lock](https://github.com/anjalirawattttt/leetcode/tree/master/0752-open-the-lock) |
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0952-word-subsets](https://github.com/anjalirawattttt/leetcode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/anjalirawattttt/leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -910,6 +912,7 @@
 | [0768-partition-labels](https://github.com/anjalirawattttt/leetcode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/anjalirawattttt/leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/anjalirawattttt/leetcode/tree/master/0890-lemonade-change) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjalirawattttt/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1833-maximum-ice-cream-bars](https://github.com/anjalirawattttt/leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/anjalirawattttt/leetcode/tree/master/2212-removing-minimum-and-maximum-from-array) |
