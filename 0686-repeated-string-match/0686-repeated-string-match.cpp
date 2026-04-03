@@ -1,57 +1,48 @@
 class Solution {
-    const int MOD=1e7;
 public:
+    bool match(string txt,string pat,int q=11){
+        int d=256;
+        int n=txt.length();
+        int m=pat.length();
+        if(m>n)return false;
 
-    int rabin_karp(string a,string b){
-        int n=a.length();
-        int m=b.length();
-
-        long long hashcode=0;
-        long long curr=0;
-        long long power=1;
+        int t=0,p=0;
+        int h=1;
+        // d^m-1
+        for(int i=0;i<m-1;i++){
+            h = (h*d) % q;
+        }
 
         for(int i=0;i<m;i++){
-            if(i<m-1){
-                power=(power*26)%MOD;
+            t = ( t*d + txt[i]) % q ;
+            p = ( p*d + pat[i]) % q ;
+        }
+
+        for(int i=0;i<=n-m;i++){
+            if(p==t){
+            int j;
+            for(j=0;j<m;j++){
+                if(txt[i+j]!=pat[j])break;
             }
-            hashcode=( (hashcode*26) + (b[i]-'a') )%MOD;
-            curr=( (curr*26) + (a[i]-'a') )%MOD;            
-        }
-
-        if(curr==hashcode){
-            string temp=a.substr(0,m);
-            if(temp==b)return 1;
-        }
-
-        
-        for(int i=m;i<n;i++){
-            curr=( (curr-((a[i-m]-'a')*power)%MOD)*26 +(a[i]-'a') )%MOD;
-            if(curr<0)curr+=MOD;
-            if(curr==hashcode){
-                string temp=a.substr(i-m+1,m);
-                if(temp==b)return 1;
+            if(j==m)return true;
+            }
+            if(i<n-m){
+            t = ( (t-txt[i]*h)*d + txt[i+m] )  % q ;
+            if(t<0)t+=q;
             }
         }
 
-
-        return -1;
-    } 
-
+        return false;
+    }
     int repeatedStringMatch(string a, string b) {
-        if(b.empty())return 0;
-        if(a.empty())return -1;
-        if(a==b)return 1;
-
-        int count=1;
-        string source=a;
-        while(source.length()<b.length()){
-            count++;
-            source+=a;
-        }
-
-        if(source==b)return count;
-        if(rabin_karp(source,b)!=-1)return count;
-        if(rabin_karp(source+a,b)!=-1)return count+1;
+        int na = a.length();
+        int nb = b.length(); 
+        int mul=nb/na;
+        string temp="";
+        for(int i=0;i<mul+2;i++){
+            temp+=a;
+            if(match(temp,b))return i+1;
+        }   
         return -1;
     }
 };
