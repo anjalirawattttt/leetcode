@@ -862,6 +862,7 @@
 | [1302-delete-characters-to-make-fancy-string](https://github.com/anjalirawattttt/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1392-longest-happy-prefix](https://github.com/anjalirawattttt/leetcode/tree/master/1392-longest-happy-prefix) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/anjalirawattttt/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1714-rearrange-spaces-between-words](https://github.com/anjalirawattttt/leetcode/tree/master/1714-rearrange-spaces-between-words) |
@@ -950,6 +951,7 @@
 | [0572-subtree-of-another-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0686-repeated-string-match](https://github.com/anjalirawattttt/leetcode/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/anjalirawattttt/leetcode/tree/master/0812-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/anjalirawattttt/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Linked List
 |  |
 | ------- |
@@ -1463,6 +1465,7 @@
 | [0572-subtree-of-another-tree](https://github.com/anjalirawattttt/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0706-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0706-design-hashmap) |
 | [0817-design-hashmap](https://github.com/anjalirawattttt/leetcode/tree/master/0817-design-hashmap) |
+| [1392-longest-happy-prefix](https://github.com/anjalirawattttt/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Randomized
 |  |
 | ------- |
@@ -1478,6 +1481,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/anjalirawattttt/leetcode/tree/master/0214-shortest-palindrome) |
+| [1392-longest-happy-prefix](https://github.com/anjalirawattttt/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Database
 |  |
 | ------- |
